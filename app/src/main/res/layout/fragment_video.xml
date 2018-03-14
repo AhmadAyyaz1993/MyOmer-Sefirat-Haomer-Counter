@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.myomer.myomer.fragments.VideoFragment">
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:padding="8dp"
+            android:background="@android:color/white"
+            >
+            <TextView
+                android:id="@+id/tvTitleOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title 1"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+
+                />
+            <TextView
+                android:id="@+id/tvTitleTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title 1"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+
+                />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                >
+            <ImageView
+                android:id="@+id/ivThumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+
+                />
+                <ImageView
+                    android:id="@+id/ivThumbnail2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@android:drawable/ic_media_play"
+                    android:layout_centerInParent="true"
+                    />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/tvContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title 1"
+                android:textSize="16dp"
+                android:textColor="@android:color/black"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>19</integer>
+	<key>week</key>
+	<integer>3</integer>
+	<key>dayOfWeek</key>
+	<integer>5</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 19 days, whch are two weeks and five days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es diecinueve días, que son dos semanas y cinco días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est dix-neuf jours, qui sont deux semaines et cinq jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ДЕВЯТНАДЦАТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ДВЕ НЕДЕЛИ И ПЯТЬ ДНЕЙ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם תִּשְׁעָה עָשָׂר יוֹם שֶׁהֵם שְׁנֵי שָׁבוּעוֹת וַחֲמִשָּׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Hod ShebeTiferes</string>
+		<key>es</key>
+		<string>Hod shebe Tiferet</string>
+		<key>fr</key>
+		<string>Hod chebeTiféret</string>
+		<key>ru</key>
+		<string>ОЙД ШЕБЕ-ТИФЕРЕС</string>
+		<key>hb</key>
+		<string>הוֹד שֶׁבְּתִפְאֶֽרֶת</string>
+	</dict>
+	<key>title</key>
+	<string>Hod of Tiferet</string>
+	<key>subtitle</key>
+	<string>Humility in Compassion</string>
+	<key>content</key>
+	<string>If compassion is not to be condescending and pretentious, it must include humility. Hod is recognizing that my ability to be compassionate and giving does not make me better than the recipient; it is the acknowledgment and appreciation that by creating one who needs compassion, G-d gave me the gift of being able to bestow compassion. Thus, there is no place for haughtiness in compassion.</string>
+	<key>exercise</key>
+	<string>Express compassion in an anonymous fashion, without taking any personal credit.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>95</integer>
+			<key>question</key>
+			<string>Do I feel superior because I am compassionate?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>96</integer>
+			<key>question</key>
+			<string>Do I look down at those who need my compassion?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>97</integer>
+			<key>question</key>
+			<string>Am I humble and thankful to G-d for giving me the ability to have compassion for others?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

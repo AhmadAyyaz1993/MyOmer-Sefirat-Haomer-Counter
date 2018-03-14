@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>34</integer>
+	<key>week</key>
+	<integer>5</integer>
+	<key>dayOfWeek</key>
+	<integer>6</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 34 days, which are four weeks and six days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es treinta y cuatro días, que son cuatro semanas y seis días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est trente-quatre jours, qui sont quatre semaines et six jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ТРИДЦАТЬ ЧЕТЫРЕ ДНЯ - ЧТО СОСТАВЛЯЕТ ЧЕТЫРЕ НЕДЕЛИ И ШЕСТЬ ДНЕЙ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם אַרְבָּעָה וּשְׁלֹשִׁים יוֹם שֶׁהֵם אַרְבָּעָה שָׁבוּעוֹת וְשִׁשָּׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Yesod ShebeHod</string>
+		<key>es</key>
+		<string>Iesod ShebeHod</string>
+		<key>fr</key>
+		<string>Yessod chebeHod</string>
+		<key>ru</key>
+		<string>ЙЕСОЙД ШЕБЕ-ОЙД</string>
+		<key>hb</key>
+		<string>יְסוֹד שֶׁבְּהוֹד</string>
+	</dict>
+	<key>title</key>
+	<string>Yesod of Hod</string>
+	<key>subtitle</key>
+	<string>Bonding in Humility</string>
+	<key>content</key>
+	<string>Humility should not be a lonely experience. It ought to result in deep bonding and commitment. There is no stronger bond than one that comes out of humility.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>How to Find Continuity in Your Life</string>
+		<key>description</key>
+		<string></string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/QGgIowDhgvU</string>
+	</dict>
+	<key>exercise</key>
+	<string>Use your humility to build something lasting.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>164</integer>
+			<key>question</key>
+			<string>Does my humility separate me from others or bring us closer?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>165</integer>
+			<key>question</key>
+			<string>Does my humility produce results?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>166</integer>
+			<key>question</key>
+			<string>Long term results?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>167</integer>
+			<key>question</key>
+			<string>Does it create an everlasting foundation upon which I and others can rely and build?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

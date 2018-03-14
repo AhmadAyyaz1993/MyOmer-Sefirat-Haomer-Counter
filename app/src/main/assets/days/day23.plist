@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>23</integer>
+	<key>week</key>
+	<integer>4</integer>
+	<key>dayOfWeek</key>
+	<integer>2</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 23 days, which are three weeks and two days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es veintitrés días, que son tres semanas y dos días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est vingt-trois jours, qui sont trois semaines et deux jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ДВАДЦАТЬ ТРИ ДНЯ - ЧТО СОСТАВЛЯЕТ ТРИ НЕДЕЛИ И ДВА ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שְׁלֹשָׁה וְעֶשְׂרִים יוֹם שֶׁהֵם שְׁלֹשָׁה שָׁבוּעוֹת וּשְׁנֵי יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Gevurah ShebeNetzach</string>
+		<key>es</key>
+		<string>Gevura ShebeNetzaj</string>
+		<key>fr</key>
+		<string>Guevoura chebeNetsa&apos;h</string>
+		<key>ru</key>
+		<string>ГВУРО ШЕБЕ-НЕЦАХ</string>
+		<key>hb</key>
+		<string>גְּבוּרָה שֶׁבְּנֶֽצַח</string>
+	</dict>
+	<key>title</key>
+	<string>Gevurah of Netzach</string>
+	<key>subtitle</key>
+	<string>Discipline in Endurance</string>
+	<key>content</key>
+	<string>Examine the discipline of your endurance. Endurance must be directed toward productive goals and expressed in a constructive manner.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Your Flaws are Possibly Not Real</string>
+		<key>description</key>
+		<string>How many of your inadequacies are real? Or, are they really just due to a lack of confidence? We may like to believe they are all real, because that way we can justify not achieving and not meeting our potential. Are achievers more competent, or more persistent? All of us have far more potential than we think we have -- the difference is mostly in persistence.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/PmWfWBwYQkw</string>
+	</dict>
+	<key>exercise</key>
+	<string>Break one bad habit today.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>114</integer>
+			<key>question</key>
+			<string>Is my endurance and determination focused to help cultivate good habits and break bad ones?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>115</integer>
+			<key>question</key>
+			<string>Is it the other way around?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>116</integer>
+			<key>question</key>
+			<string>Does my endurance come from strength or weakness?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>117</integer>
+			<key>question</key>
+			<string>Does it come out of deep conviction or out of defensiveness?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>118</integer>
+			<key>question</key>
+			<string>Am I tenacious out of stubbornness and an unwillingness to acknowledge errors?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>119</integer>
+			<key>question</key>
+			<string>Am I invested in certain decisions and unwilling to review them?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>120</integer>
+			<key>question</key>
+			<string>Do I use my endurance against itself by being tenacious in my lack of determination?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

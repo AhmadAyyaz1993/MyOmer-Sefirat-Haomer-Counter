@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>7</integer>
+	<key>week</key>
+	<integer>1</integer>
+	<key>dayOfWeek</key>
+	<integer>7</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is seven days, which are one week, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es siete días, que son una semana del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est sept jours, qui sont une semaine du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ СЕМЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ОДНУ НЕДЕЛЮ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שִׁבְעָה יָמִים שֶׁהֵם שָׁבֽוּעַ אֶחָד לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Malchus ShebeChesed</string>
+		<key>es</key>
+		<string>Maljut ShebeJesed</string>
+		<key>fr</key>
+		<string>Malkhout chebe&apos;Hessed</string>
+		<key>ru</key>
+		<string>МАЛХУС ШЕБЕ-ХЕСЕД</string>
+		<key>hb</key>
+		<string>מַלְכוּת שֶׁבְּחֶֽסֶד</string>
+	</dict>
+	<key>title</key>
+	<string>Malchut of Chesed</string>
+	<key>subtitle</key>
+	<string>Nobility in Lovingkindness</string>
+	<key>content</key>
+	<string>Mature love comes with - and brings - personal dignity, an intimate feeling of nobility and regalness. It allows you to know your special place and contribution in this world. Any love that is demoralizing and breaks the human spirit is no love at all. For love to be complete it must have the dimension of personal sovereignty, a sense of freedom and dominion over the forces that detract from total loving.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Your Free Wild Spirit</string>
+		<key>description</key>
+		<string>Everyone has a free, wild spirit inside herself. Each of us has the right and the ability ot be fully alive all the time. The trials and tribulations squelch it and bottle it up. It never dies, though. A vibrant spiritual energy with a Divine mission goes into a body in the material world and when materialism takes over, the soul is beat into servitude to the body. The free spirit is constricted. The soul is essentially in prison. We are not made of this world. We are fundamentally live energy. Everybody has that life force. That&apos;s what a soul is. Until society stops pressuring us to shape up in a certain way, that soul is free. For most people, they only experience that in a functional, healthy childhood.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/KveBtUUMdlE</string>
+	</dict>
+	<key>exercise</key>
+	<string>Highlight an aspect in your love that has bolstered your spirit and enriched your life ...and celebrate!</string>
+	<key>questions</key>
+	<array/>
+</dict>
+</plist>

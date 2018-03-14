@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>39</integer>
+	<key>week</key>
+	<integer>6</integer>
+	<key>dayOfWeek</key>
+	<integer>4</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 39 days, which are five weeks and four days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es treinta y nueve días, que son cinco semanas y cuatro días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est trente-neuf jours, qui sont cinq semaines et quatre jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ТРИДЦАТЬ ДЕВЯТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ПЯТЬ НЕДЕЛЬ И ЧЕТЫРЕ ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם תִּשְׁעָה וּשְׁלֹשִׁים יוֹם שֶׁהֵם חֲמִשָּׁה שָׁבוּעוֹת וְאַרְבָּעָה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Netzach ShebeYesod</string>
+		<key>es</key>
+		<string>Netzaj ShebeIesod</string>
+		<key>fr</key>
+		<string>Netsa&apos;h chebeYessod</string>
+		<key>ru</key>
+		<string>НЕЦАХ ШЕБЕ-ЙЕСОЙД</string>
+		<key>hb</key>
+		<string>נֶֽצַח שֶׁבִּיסוֹד</string>
+	</dict>
+	<key>title</key>
+	<string>Netzach of Yesod</string>
+	<key>subtitle</key>
+	<string>Endurance in Bonding</string>
+	<key>content</key>
+	<string>An essential component of bonding is its endurance; its ability to withstand challenges and setbacks. Without endurance there is no chance to develop true bonding.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Something That Does Not Kill You Makes You Stronger</string>
+		<key>description</key>
+		<string>All good results come from effort. If you&apos;re not succeeding, it might just be because you haven&apos;t put in the requisite effort.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/XI66TQTYEMk</string>
+	</dict>
+	<key>exercise</key>
+	<string>Demonstrate the endurance level of your bonding by confronting a challenge that obstructs the bond.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>179</integer>
+			<key>question</key>
+			<string>Am I totally committed to the one with whom I bond?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>180</integer>
+			<key>question</key>
+			<string>How much will I endure and how ready am I to fight to maintain this bond?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>181</integer>
+			<key>question</key>
+			<string>Is the person with whom I bond aware of my devotion?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

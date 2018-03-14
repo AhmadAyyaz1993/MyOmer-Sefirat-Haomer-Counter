@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>14</integer>
+	<key>week</key>
+	<integer>2</integer>
+	<key>dayOfWeek</key>
+	<integer>7</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 14 days, which are two weeks, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es catorce días, que son dos semanas del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est quatorze jours, qui sont deux semaines du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ЧЕТЫРНАДЦАТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ДВЕ НЕДЕЛИ ОМЕРА</string>
+		<key>hb</key>
+		<string>הַיּוֹם אַרְבָּעָה עָשָׂר יוֹם שֶׁהֵם שְׁנֵי שָׁבוּעוֹת לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Malchus ShebeGevurah</string>
+		<key>es</key>
+		<string>Maljut ShebeGevura</string>
+		<key>fr</key>
+		<string>Malkhout chebiGuevoura</string>
+		<key>ru</key>
+		<string>МАЛХУС ШЕБЕ-ГВУРО</string>
+		<key>hb</key>
+		<string>מַלְכוּת שֶׁבִּגְבוּרָה</string>
+	</dict>
+	<key>title</key>
+	<string>Malchut of Gevurah</string>
+	<key>subtitle</key>
+	<string>Nobility of Discipline</string>
+	<key>content</key>
+	<string>Discipline, like love, must enhance personal dignity (see Week One, Day Seven). Discipline that demoralizes a person will backfire. Healthy discipline should bolster self-esteem and help elicit the best in a person, cultivating his sovereignty. This expression of discipline does not compromise the discipline; on the contrary it fosters and enhances it.</string>
+	<key>exercise</key>
+	<string>When disciplining your child or student, foster his self-respect.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>57</integer>
+			<key>question</key>
+			<string>Does my discipline cripple the human spirit?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>58</integer>
+			<key>question</key>
+			<string>Does it weaken or strengthen me and others?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

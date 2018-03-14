@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>42</integer>
+	<key>week</key>
+	<integer>6</integer>
+	<key>dayOfWeek</key>
+	<integer>7</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 42 days, which are six weeks, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es cuarenta y dos días, que son seis semanas del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est quarante-deux jours, qui sont six semaines du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ СОРОК ДВА ДНЯ - ЧТО СОСТАВЛЯЕТ ШЕСТЬ НЕДЕЛЬ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שְׁנַֽיִם וְאַרְבָּעִים יוֹם שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Malchus ShebeYesod</string>
+		<key>es</key>
+		<string>Maljut ShebeIesod</string>
+		<key>fr</key>
+		<string>Malkhout chebeYessod</string>
+		<key>ru</key>
+		<string>МАЛХУС ШЕБЕ-ЙЕСОЙД</string>
+		<key>hb</key>
+		<string>מַלְכוּת שֶׁבִּיסוֹד</string>
+	</dict>
+	<key>title</key>
+	<string>Malchut of Yesod</string>
+	<key>subtitle</key>
+	<string>Nobility in Bonding
+</string>
+	<key>content</key>
+	<string>Bonding must enhance a person&apos;s nobility. It should nurture and strengthen your own dignity and the dignity of the one with whom you bond.</string>
+	<key>exercise</key>
+	<string>Emphasize and highlight the strengths of the one with whom you bond.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>194</integer>
+			<key>question</key>
+			<string>Does my bonding inhibit the expression of my personality and qualities?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>195</integer>
+			<key>question</key>
+			<string>Does it overwhelm the one with whom I bond?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

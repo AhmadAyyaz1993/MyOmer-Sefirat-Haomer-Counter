@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>29</integer>
+	<key>week</key>
+	<integer>5</integer>
+	<key>dayOfWeek</key>
+	<integer>1</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 29 days, which are four weeks and one day, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es veintinueve días, que son cuatro semanas y un día del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est vingt-neuf jours, qui sont quatre semaines et un jour du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ДВАДЦАТЬ ДЕВЯТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ЧЕТЫРЕ НЕДЕЛИ И ОДИН ДЕНЬ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם תִּשְׁעָה וְעֶשְׂרִים יוֹם שֶׁהֵם אַרְבָּעָה שָׁבוּעוֹת וְיוֹם אֶחָד לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Chesed ShebeHod</string>
+		<key>es</key>
+		<string>Jesed ShebeHod</string>
+		<key>fr</key>
+		<string>Hessed chebeHod</string>
+		<key>ru</key>
+		<string>ХЕСЕД ШЕБЕ-ОЙД</string>
+		<key>hb</key>
+		<string>חֶֽסֶד שֶׁבְּהוֹד</string>
+	</dict>
+	<key>title</key>
+	<string>Chesed of Hod</string>
+	<key>subtitle</key>
+	<string>Lovingkindness in Humility</string>
+	<key>content</key>
+	<string>Examine the love in your humility. Healthy humility is not demoralizing; it brings love and joy, not fear. Humility that lacks love has to be re-examined for its authenticity. Sometimes humility can be confused with low self-esteem, which would cause it to be unloving.
+
+Humility brings love because it gives you the ability to rise above yourself and love another. Arrogance in the guise of love means loving yourself, or even worse: making others a part and an extension of yourself and your self-love.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Happiness is Your Essence</string>
+		<key>description</key>
+		<string>Happiness is a state of being, not an acquisition. Therapeutic methods for getting to a happy state do not make you happy; they are only able to strip away layers of negativity and damage that cover up your essence. Your essence is happy, and therefore your natural state is happiness. It is not something that you can describe. It is an experience of being. You will get there by living in line with your true essence.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/Ep3XYCiqzCQ</string>
+	</dict>
+	<key>exercise</key>
+	<string>Before praying with humility and acknowledgment of G-d, give some charity. It will enhance your prayers.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>141</integer>
+			<key>question</key>
+			<string>Does my humility cause me to be more loving and giving?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>142</integer>
+			<key>question</key>
+			<string>More expansive?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>143</integer>
+			<key>question</key>
+			<string>Or does it inhibit and constrain me?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>144</integer>
+			<key>question</key>
+			<string>Am I humble and happy or humble and miserable?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

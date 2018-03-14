@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>10</integer>
+	<key>week</key>
+	<integer>2</integer>
+	<key>dayOfWeek</key>
+	<integer>3</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is ten days, which are one week and three days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es diez días, que son una semana y tres días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est dix jours, qui sont une semaine et trois jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ДЕСЯТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ОДНУ НЕДЕЛЮ И ТРИ ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם עֲשָׂרָה יָמִים שֶׁהֵם שָׁבֽוּעַ אֶחָד וּשְׁלֹשָׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Tiferes ShebeGevurah</string>
+		<key>es</key>
+		<string>Tiferet ShebeGevura</string>
+		<key>fr</key>
+		<string>Tiféret chebiGuevoura</string>
+		<key>ru</key>
+		<string>ТИФЕРЕС ШЕБЕ-ГВУРО</string>
+		<key>hb</key>
+		<string>תִּפְאֶֽרֶת שֶׁבִּגְבוּרָה</string>
+	</dict>
+	<key>title</key>
+	<string>Tiferet of Gevurah</string>
+	<key>subtitle</key>
+	<string>Compassion in Discipline</string>
+	<key>content</key>
+	<string>Underlying and driving discipline must not only be love, but also compassion. Love comes from recognizing one&apos;s merits and positive qualities, while discipline channels and directs those strengths and weeds out the negative.
+
+Compassion is unconditional love. It is love just for the sake of love, not considering the other&apos;s position. Tiferet is a result of total selflessness in the eyes of G-d. You love for no reason; you love because you are a reflection of G-d.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Breaking Down the Highest Level of Empathy</string>
+		<key>description</key>
+		<string>Rabbi Simon Jacobson breaks down the highest level of empathy by telling a story of the Mittler Rebbe.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/B6eFo2Z_H3s</string>
+	</dict>
+	<key>exercise</key>
+	<string>Be compassionate to someone you have reproached.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>50</integer>
+			<key>question</key>
+			<string>Does my discipline have this element of compassion?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

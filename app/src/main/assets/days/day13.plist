@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>13</integer>
+	<key>week</key>
+	<integer>2</integer>
+	<key>dayOfWeek</key>
+	<integer>6</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 13 days, which are one week and six days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es trece días, que son una semana y seis días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est treize jours, qui sont une semaine et six jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ТРИНАДЦАТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ОДНУ НЕДЕЛЮ И ШЕСТЬ ДНЕЙ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שְׁלֹשָׁה עָשָׂר יוֹם שֶׁהֵם שָׁבֽוּעַ אֶחָד וְשִׁשָּׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Yesod ShebeGevurah</string>
+		<key>es</key>
+		<string>Iesod ShebeGevura</string>
+		<key>fr</key>
+		<string>Yessod chebiGuevoura</string>
+		<key>ru</key>
+		<string>ЙЕСОЙД ШЕБЕ-ГВУРО</string>
+		<key>hb</key>
+		<string>יְסוֹד שֶׁבִּגְבוּרָה</string>
+	</dict>
+	<key>title</key>
+	<string>Yesod of Gevurah</string>
+	<key>subtitle</key>
+	<string>Bonding in Discipline</string>
+	<key>content</key>
+	<string>For discipline to be effective it must be coupled with commitment and bonding.
+
+Both in disciplining yourself and others there has to be a sense that the discipline is important for developing a stronger bond. Not that I discipline you, but that we are doing it together for our mutual benefit.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>The Value of a Stable Home</string>
+		<key>description</key>
+		<string>Modern social isolation is a source of deep pain for many — loneliness is demoralizing; the breeding ground for so many anxieties. The antidote is a stable home — where relationships are nurtured in an environment saturated with warmth and love. A secure and stable home is a precious commodity, but one that cannot be bought, only built. Join Rabbi Simon Jacobson for this short inspiring talk about the priceless value of a healthy home for the human soul..</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/n4cLAVdFMU8</string>
+	</dict>
+	<key>exercise</key>
+	<string>Demonstrate to your child or student how discipline is an expression of intensifying your bond and commitment to each other.</string>
+	<key>questions</key>
+	<array/>
+</dict>
+</plist>

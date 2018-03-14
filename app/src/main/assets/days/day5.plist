@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>5</integer>
+	<key>week</key>
+	<integer>1</integer>
+	<key>dayOfWeek</key>
+	<integer>5</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is five days of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es cinco días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est cinq jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ПЯТЬ ДНЕЙ ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם חֲמִשָּׁה יָמִים לָעֽוֹמֶר:</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Hod ShebeChesed</string>
+		<key>es</key>
+		<string>Hod ShebeJesed</string>
+		<key>fr</key>
+		<string>Hod chebe&apos;Hessed</string>
+		<key>ru</key>
+		<string>ОЙД ШЕБЕ-ХЕСЕД</string>
+		<key>hb</key>
+		<string>הוֹד שֶׁבְּחֶֽסֶד</string>
+	</dict>
+	<key>title</key>
+	<string>Hod of Chesed</string>
+	<key>subtitle</key>
+	<string>Humility in Lovingkindness</string>
+	<key>content</key>
+	<string>You can often get &quot;locked&quot; in love, unable to forgive your loved one or bend or compromise your position. Hod introduces the aspect of humility in love; the ability to rise above yourself and forgive or give in to the one you love, just for the sake of love, even if you&apos;re convinced that you&apos;re right. Arrogant love is not real love.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>What to Do When You Think Someone Hates You</string>
+		<key>description</key>
+		<string>What should you do when you think that someone hates you? Should you react? Apologize? Take the high road and not engage? In this short video, Rabbi Simon Jacobson discusses the healthy, proactive approach to handling situations when someone seems to hate you. Learn how to respond in a way that is not demoralizing or humiliating -- while maintaining your self-control and dignity. Free yourself from the toxins of resentment!</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/dDhgKwbbS20</string>
+	</dict>
+	<key>exercise</key>
+	<string>Swallow your pride and reconcile with a loved one with whom you have quarreled.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>34</integer>
+			<key>question</key>
+			<string>Does love humble me?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>35</integer>
+			<key>question</key>
+			<string>Am I arrogant notwithstanding -- or sometimes because -- I have the capacity to love?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>36</integer>
+			<key>question</key>
+			<string>Do I realize that the ability to love comes from a greater, higher place; from G-d?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>37</integer>
+			<key>question</key>
+			<string>Knowing that love comes from G-d, do I enter love with total humility, recognizing the great privilege of being able to love?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>38</integer>
+			<key>question</key>
+			<string>Do I realize that through love, I receive more than I give?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>39</integer>
+			<key>question</key>
+			<string>Do I appreciate the one I love for this?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>16</integer>
+	<key>week</key>
+	<integer>3</integer>
+	<key>dayOfWeek</key>
+	<integer>2</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 16 days, which are two weeks and two days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es dieciséis días, que son dos semanas y dos días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est seize jours, qui sont deux semaines et deux jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ШЕСТНАДЦАТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ДВЕ НЕДЕЛИ И ДВА ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שִׁשָּׁה עָשָׂר יוֹם שֶׁהֵם שְׁנֵי שָׁבוּעוֹת וּשְׁנֵי יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Gevurah ShebeTiferes</string>
+		<key>es</key>
+		<string>Gevura ShebeTiferet</string>
+		<key>fr</key>
+		<string>Guevoura chebeTiféret</string>
+		<key>ru</key>
+		<string>ГВУРО ШЕБЕ-ТИФЕРЕС</string>
+		<key>hb</key>
+		<string>גְּבוּרָה שֶׁבְּתִפְאֶֽרֶת</string>
+	</dict>
+	<key>title</key>
+	<string>Gevurah of Tiferet</string>
+	<key>subtitle</key>
+	<string>Discipline in Compassion</string>
+	<key>content</key>
+	<string>For compassion to be effective and healthy it needs to be disciplined and focused. It requires discretion both to whom you express compassion and in the measure of the compassion itself. It is recognizing when compassion should be expressed and when it should be withheld or limited. Discipline in compassion is knowing that being truly compassionate sometimes requires withholding compassion, because compassion is not an expression of the bestower&apos;s needs but a response to the recipient&apos;s needs.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Is This Alcoholic Hopeless?</string>
+		<key>description</key>
+		<string>Is this alcoholic hopeless? He wrote to Rabbi Jacobson asking for help. He has tried the 12 steps and other recovery methods and still can&apos;t get sober. Join us for this short, inspiring message.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/z94ohjUufPs</string>
+	</dict>
+	<key>exercise</key>
+	<string>Express your compassion in a focused and constructive manner by addressing someone&apos;s specific needs.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>63</integer>
+			<key>question</key>
+			<string>Am I more compassionate with strangers than with close ones? If yes, why?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>64</integer>
+			<key>question</key>
+			<string>Is the compassion coming from guilt?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>65</integer>
+			<key>question</key>
+			<string>Does my compassion for others compromise my own needs?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>66</integer>
+			<key>question</key>
+			<string>Am I helping others at the expense of helping myself?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>67</integer>
+			<key>question</key>
+			<string>Perhaps the contrary is the case: Does my compassion for my family and close ones overshadow others&apos; needs?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>68</integer>
+			<key>question</key>
+			<string>Is my compassion impulsive and careless?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>69</integer>
+			<key>question</key>
+			<string>Do I assess the measure of compassion necessary for a given situation?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>70</integer>
+			<key>question</key>
+			<string>Is it commensurate with the recipient&apos;s needs?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>71</integer>
+			<key>question</key>
+			<string>Can I possibly be hurting him with my compassion?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>72</integer>
+			<key>question</key>
+			<string>Does my compassion overwhelm others? Is it respectful?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>73</integer>
+			<key>question</key>
+			<string>Do I give too much or too little?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>74</integer>
+			<key>question</key>
+			<string>Do others take advantage of my compassionate nature?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>75</integer>
+			<key>question</key>
+			<string>When I see a needy person do I impetuously express compassion out of guilt or pity without any discretion?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>76</integer>
+			<key>question</key>
+			<string>Do I commit the “crime” of compassion by helping him with something harmful (giving him money to buy a harmful substance etc.)?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>77</integer>
+			<key>question</key>
+			<string>Do I apply myself to determine this person&apos;s needs and help him in the best way possible?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

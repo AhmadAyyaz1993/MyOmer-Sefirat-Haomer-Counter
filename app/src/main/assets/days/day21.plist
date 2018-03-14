@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>21</integer>
+	<key>week</key>
+	<integer>3</integer>
+	<key>dayOfWeek</key>
+	<integer>7</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 21 days, which are three weeks, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es veintiún días, que son tres semanas del Omer</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est vingt et un jours, qui sont trois semaines du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ДВАДЦАТЬ ОДИН ДЕНЬ - ЧТО СОСТАВЛЯЕТ ТРИ НЕДЕЛИ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם אֶחָד וְעֶשְׂרִים יוֹם שֶׁהֵם שְׁלֹשָׁה שָׁבוּעוֹת לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Malchus ShebeTiferes</string>
+		<key>es</key>
+		<string>Maljut Shebe Tiferet</string>
+		<key>fr</key>
+		<string>Malkhout chebeTiféret</string>
+		<key>ru</key>
+		<string>МАЛХУС ШЕБЕ-ТИФЕРЕС</string>
+		<key>hb</key>
+		<string>מַלְכוּת שֶׁבְּתִפְאֶֽרֶת</string>
+	</dict>
+	<key>title</key>
+	<string>Malchut of Tiferet</string>
+	<key>subtitle</key>
+	<string>Nobility in Compassion</string>
+	<key>content</key>
+	<string>Examine the dignity of your compassion. For compassion to be complete (and enhance the other six aspects of compassion) it must recognize and appreciate individual sovereignty. It should boost self-esteem and cultivate human dignity -- both your own dignity and the dignity of the one benefiting from your compassion.</string>
+	<key>exercise</key>
+	<string>Rather than just giving charity; help the needy help themselves in a fashion that strengthens their dignity.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>100</integer>
+			<key>question</key>
+			<string>Is my compassion expressed in a dignified manner?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>101</integer>
+			<key>question</key>
+			<string>Do I manifest and emphasize majesty in my compassion?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>102</integer>
+			<key>question</key>
+			<string>Does it elicit dignity in others?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>103</integer>
+			<key>question</key>
+			<string>Do I recognize the fact that when I experience compassion as dignified, it will reflect reciprocally in the one who receives compassion?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

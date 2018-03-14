@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>12</integer>
+	<key>week</key>
+	<integer>2</integer>
+	<key>dayOfWeek</key>
+	<integer>5</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 12 days, which are one week and five days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es doce días, que son una semana y cinco días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est douze jours, qui sont une semaine et cinq jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ДВЕНАДЦАТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ОДНУ НЕДЕЛЮ И ПЯТЬ ДНЕЙ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שְׁנֵים עָשָׂר יוֹם שֶׁהֵם שָׁבֽוּעַ אֶחָד וַחֲמִשָּׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Hod ShebeGevurah</string>
+		<key>es</key>
+		<string>Hod ShebeGevura</string>
+		<key>fr</key>
+		<string>Hod chebiGuevoura</string>
+		<key>ru</key>
+		<string>ОЙД ШЕБЕ-ГВУРО</string>
+		<key>hb</key>
+		<string>הוֹד שֶׁבִּגְבוּרָה</string>
+	</dict>
+	<key>title</key>
+	<string>Hod of Gevurah</string>
+	<key>subtitle</key>
+	<string>Humility in Discipline</string>
+	<key>content</key>
+	<string>The results of discipline and might without humility are obvious. The greatest catastrophes have occurred as a result of people sitting in arrogant judgment of others.
+
+A judge has to be the most humble of creatures, recognizing that he sits in judgment not by his own merit, but only because G-d gave him the right to judge His children.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>The Farmer of Chelm: A Lesson in Subjectivity</string>
+		<key>description</key>
+		<string>Rabbi Simon Jacobson tells a very funny Chassidic story with a clear lesson about objectivity and subjectivity. Lighten your mood while you gain an honest perspective on your own inner landscape.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/Ncc6VfvL0EE</string>
+	</dict>
+	<key>exercise</key>
+	<string>Before judging anyone, insure that you are doing so selflessly with no personal bias.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>54</integer>
+			<key>question</key>
+			<string>Am I arrogant in the name of justice (what I consider as just)?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>55</integer>
+			<key>question</key>
+			<string>Do I ever think that I sit on a higher pedestal and bestow judgment on my subjects below?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>56</integer>
+			<key>question</key>
+			<string>What about my children? Students?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string>&lt;br /&gt;A judge has to be the most humble of creatures, recognizing that he sits in judgment not by his own merit, but only because G-d gave him the right to judge His children.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>30</integer>
+	<key>week</key>
+	<integer>5</integer>
+	<key>dayOfWeek</key>
+	<integer>2</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 30 days, which are four weeks and two days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es treinta días, que son cuatro semanas y dos días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est trente jours, qui sont quatre semaines et deux jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ТРИДЦАТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ЧЕТЫРЕ НЕДЕЛИ И ДВА ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שְׁלֹשִׁים יוֹם שֶׁהֵם אַרְבָּעָה שָׁבוּעוֹת וּשְׁנֵי יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Gevurah ShebeHod</string>
+		<key>es</key>
+		<string>Gevura ShebeHod</string>
+		<key>fr</key>
+		<string>Guevoura chebeHod</string>
+		<key>ru</key>
+		<string>ГВУРО ШЕБЕ-ОЙД</string>
+		<key>hb</key>
+		<string>גְּבוּרָה שֶׁבְּהוֹד</string>
+	</dict>
+	<key>title</key>
+	<string>Gevurah of Hod</string>
+	<key>subtitle</key>
+	<string>Discipline in Humility</string>
+	<key>content</key>
+	<string>Humility must be disciplined and focused.
+
+Another aspect of gevurah of hod: Humility must include respect and awe for the person or experience before whom you stand humble.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Why You Should Make Yourself Uncomfortable</string>
+		<key>description</key>
+		<string>What is the value of a &quot;bad&quot; experience -- an experience that you didn&apos;t plan for and was unpleasant? Why should you embrace challenging situations? When you cut yourself off from discomfort, you cut yourself off from being fully alive. Please join Rabbi Simon Jacobson for this short discussion about the connection between adventure, spontaneity, and being uncomfortable. Learn why the discomfort of life&apos;s journey can help lead you toward happiness.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/nep24Vr9ad8</string>
+	</dict>
+	<key>exercise</key>
+	<string>Focus on your reluctance to commit in a given area and see if it originates from a healthy, humble place.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>145</integer>
+			<key>question</key>
+			<string>When should my humility cause me to compromise and when should it not?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>146</integer>
+			<key>question</key>
+			<string>In the name of humility, do I sometimes remain silent and neutral in the face of wickedness?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>147</integer>
+			<key>question</key>
+			<string>If my humility is wanting, is it because I don&apos;t respect another?</string>
+			<key>contentBefore</key>
+			<string>&amp;nbsp;&lt;/br&gt; Another aspect of gevurah of hod: Humility must include respect and awe for the person or experience before whom you stand humble.</string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

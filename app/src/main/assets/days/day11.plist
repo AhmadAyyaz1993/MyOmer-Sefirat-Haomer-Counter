@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>11</integer>
+	<key>week</key>
+	<integer>2</integer>
+	<key>dayOfWeek</key>
+	<integer>4</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 11 days, which are one week and four days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es once días, que son una semana y cuatro días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est onze jours, qui sont une semaine et quatre jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ОДИННАДЦАТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ОДНУ НЕДЕЛЮ И ЧЕТЫРЕ ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם אַחַד עָשָׂר יוֹם שֶׁהֵם שָׁבֽוּעַ אֶחָד וְאַרְבָּעָה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Netzach ShebeGevurah</string>
+		<key>es</key>
+		<string>Netzaj ShebeGevura</string>
+		<key>fr</key>
+		<string>Netsa&apos;h chebiGuevoura</string>
+		<key>ru</key>
+		<string>НЕЦАХ ШЕБЕ-ГВУРО</string>
+		<key>hb</key>
+		<string>נֶֽצַח שֶׁבִּגְבוּרָה</string>
+	</dict>
+	<key>title</key>
+	<string>Netzach of Gevurah</string>
+	<key>subtitle</key>
+	<string>Endurance in Discipline</string>
+	<key>content</key>
+	<string>null</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>How to Focus and Manage Time</string>
+		<key>description</key>
+		<string>Learn how to focus and manage time in this short life-advice video from Rabbi Simon Jacobson, author of the best-seller &quot;Toward a Meaningful Life.&quot;</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/w310u9gl81I</string>
+	</dict>
+	<key>exercise</key>
+	<string>Extend the plan you made on day two for a longer period of time, listing short-term and long-term goals. Review and update it each day, and see how consistent you are and if you follow through.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>51</integer>
+			<key>question</key>
+			<string>Is my discipline consistent or only when forced?</string>
+			<key>contentBefore</key>
+			<string>&lt;b&gt;Effective discipline must be enduring and tenacious.&lt;/b&gt;</string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>52</integer>
+			<key>question</key>
+			<string>Do I follow through with discipline?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>53</integer>
+			<key>question</key>
+			<string>Am I perceived as a weak disciplinarian?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

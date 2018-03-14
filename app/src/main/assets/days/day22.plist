@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>22</integer>
+	<key>week</key>
+	<integer>4</integer>
+	<key>dayOfWeek</key>
+	<integer>1</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 22 days, which are three weeks and one day, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es veintidós días que son tres semanas y un día del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est vingt-deux jours, qui sont trois semaines et un jour du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ДВАДЦАТЬ ДВА ДНЯ - ЧТО СОСТАВЛЯЕТ ТРИ НЕДЕЛИ И ОДИН ДЕНЬ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שְׁנַֽיִם וְעֶשְׂרִים יוֹם שֶׁהֵם שְׁלֹשָׁה שָׁבוּעוֹת וְיוֹם אֶחָד לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Chesed ShebeNetzach</string>
+		<key>es</key>
+		<string>Jesed de Netzaj</string>
+		<key>fr</key>
+		<string>Hessed chebeNetsa&apos;h</string>
+		<key>ru</key>
+		<string>ХЕСЕД ШЕБЕ-НЕЦАХ</string>
+		<key>hb</key>
+		<string>חֶֽסֶד שֶׁבְּנֶֽצַח</string>
+	</dict>
+	<key>title</key>
+	<string>Chesed of Netzach</string>
+	<key>subtitle</key>
+	<string>Lovingkindness in Endurance</string>
+	<key>content</key>
+	<string>For anything to endure it needs to be loved. A neutral or indifferent attitude will reflect in a marginal commitment. If you have difficulty making commitments, examine how much you love and enjoy the object that requires your commitment. Do I love my work? My family? My choices?
+
+For endurance to be effective it needs to be caring and loving. Endurance without love can be counterproductive. Raw endurance can come across as harsh and aggressive, which undermines the cooperation of others. Out of sheer determination one may often become controlling and demanding, driving others away. For endurance to be successful it needs a loving and caring attitude, it requires patience.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>The Antidote to Rage: Inner Security</string>
+		<key>description</key>
+		<string>Why do people rage? In light of the shooting in Las Vegas last night, it seemed appropriate to address violent rage. Rage is fundamentally a sign of insecurity -- of a lack of self, of defining one&apos;s self by others. The antidote is to know that you are nobody&apos;s victim -- that you are an independent individual. Know what you have inside yourself to celebrate. The bottom line is: Have a secure solid place that connects you to something eternal in order to avoid raging.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/Gzjl4Tw5rkU</string>
+	</dict>
+	<key>exercise</key>
+	<string>When fighting for something you believe in, pause a moment to ensure that it is accomplished in a loving manner.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>104</integer>
+			<key>question</key>
+			<string>Does my endurance cause me to be, or seem to be, inflexible?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>105</integer>
+			<key>question</key>
+			<string>Does my drive and determination cause me to be controlling?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>106</integer>
+			<key>question</key>
+			<string>Am I too demanding?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>107</integer>
+			<key>question</key>
+			<string>Do others (my employees, friends, children) cooperate with me out of the sheer force of my will and drive, or out of love?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>108</integer>
+			<key>question</key>
+			<string>Is my endurance unloving?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>109</integer>
+			<key>question</key>
+			<string>In order to get my way would I allow others to get hurt?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>110</integer>
+			<key>question</key>
+			<string>Do I believe that the end justifies the means?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>111</integer>
+			<key>question</key>
+			<string>Would I stop at nothing to achieve my goals?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>112</integer>
+			<key>question</key>
+			<string>When my endurance prevails and I overcome the obstacles in my way, am I still loving?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>113</integer>
+			<key>question</key>
+			<string>Even when defending myself and others against unhealthy influences, am I driven by love or hate?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string>[see Week Two, Day One]</string>
+		</dict>
+	</array>
+</dict>
+</plist>

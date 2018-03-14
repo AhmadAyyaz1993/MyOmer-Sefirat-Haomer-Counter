@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>40</integer>
+	<key>week</key>
+	<integer>6</integer>
+	<key>dayOfWeek</key>
+	<integer>5</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 40 days, which are five weeks and five days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es cuarenta días, que son cinco semanas y cinco días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est quarante jours, qui sont cinq semaines et cinq jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ СОРОК ДНЕЙ - ЧТО СОСТАВЛЯЕТ ПЯТЬ НЕДЕЛЬ И ПЯТЬ ДНЕЙ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם אַרְבָּעִים יוֹם שֶׁהֵם חֲמִשָּׁה שָׁבוּעוֹת וַחֲמִשָּׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Hod ShebeYesod</string>
+		<key>es</key>
+		<string>Hod ShebeIesod</string>
+		<key>fr</key>
+		<string>Hod chebeYessod</string>
+		<key>ru</key>
+		<string>ОЙД ШЕБЕ-ЙЕСОЙД</string>
+		<key>hb</key>
+		<string>הוֹד שֶׁבִּיסוֹד</string>
+	</dict>
+	<key>title</key>
+	<string>Hod of Yesod</string>
+	<key>subtitle</key>
+	<string>Humility in Bonding</string>
+	<key>content</key>
+	<string>Humility is crucial in healthy bonding. Arrogance divides people. Preoccupation with your own desires and needs separates you from others. Humility allows you to appreciate another person and bond with him. Bonding that is just, an extension of your own needs is only bonding tighter with yourself. Healthy bonding is the union of two distinct people, with independent personalities, who join for a higher purpose than satisfying their own needs.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>The Difference Between a Blessing and a Prayer</string>
+		<key>description</key>
+		<string></string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/rdmH1MC0Dro</string>
+	</dict>
+	<key>exercise</key>
+	<string>When praying, acknowledge G-d specifically for helping you bond with others.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>182</integer>
+			<key>question</key>
+			<string>Am I aware of the third partner--G-d--in bonding, and that this partner gives me the capacity to unite with another, despite our distinctions?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

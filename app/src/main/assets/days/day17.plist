@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>17</integer>
+	<key>week</key>
+	<integer>3</integer>
+	<key>dayOfWeek</key>
+	<integer>3</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 17 days, which are two weeks and three days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es diecisiete días, que son dos semanas y tres días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est dix-sept jours, qui sont deux semaines et trois jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ СЕМНАДЦАТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ДВЕ НЕДЕЛИ И ТРИ ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שִׁבְעָה עָשָׂר יוֹם שֶׁהֵם שְׁנֵי שָׁבוּעוֹת וּשְׁלֹשָׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Tiferes ShebeTiferes</string>
+		<key>es</key>
+		<string>Tiferet shebe Tiferet</string>
+		<key>fr</key>
+		<string>Tiféret chebeTiféret</string>
+		<key>ru</key>
+		<string>ТИФЕРЕС ШЕБЕ-ТИФЕРЕС</string>
+		<key>hb</key>
+		<string>תִּפְאֶֽרֶת שֶׁבְּתִפְאֶֽרֶת</string>
+	</dict>
+	<key>title</key>
+	<string>Tiferet of Tiferet</string>
+	<key>subtitle</key>
+	<string>Compassion in Compassion</string>
+	<key>content</key>
+	<string>Examine the compassion of compassion; the expression of compassion and its intensity. True compassion is limitless. It is not an extension of your needs and defined by your limited perspective. Compassion for another is achieved by having a selfless attitude, rising above yourself and placing yourself in the other person&apos;s situation and experience.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Family Fight Over Inheritance</string>
+		<key>description</key>
+		<string>Two siblings are tearing a family apart over an inheritance. Rabbi Simon Jacobson is here to help with a spiritual solution.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/WBPUAH-WAeI</string>
+	</dict>
+	<key>exercise</key>
+	<string>Express your compassion in a new way that goes beyond your previous limitations: express it towards someone to whom you have been callous.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>78</integer>
+			<key>question</key>
+			<string>Am I prepared and able to do that? If not, why?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>79</integer>
+			<key>question</key>
+			<string>Do I express and actualize the compassion and empathy in my heart?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>80</integer>
+			<key>question</key>
+			<string>What blocks me from expressing it? o Am I locked in any way?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>81</integer>
+			<key>question</key>
+			<string>Is my compassion compassionate or self-serving?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>82</integer>
+			<key>question</key>
+			<string>Is it compassion that comes out of guilt rather than genuine empathy?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>83</integer>
+			<key>question</key>
+			<string>How does that affect and distort my compassion?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>84</integer>
+			<key>question</key>
+			<string>Does my compassion come from a sense of duty or is it frivolous?</string>
+			<key>contentBefore</key>
+			<string>&lt;b&gt;Test yourself by seeing if you express compassion even when you don&amp;apos;t feel guilty.</string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>85</integer>
+			<key>question</key>
+			<string>On the other hand: Is my compassion alive; does it resound with vitality, or is it expressed only out of obligation?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>86</integer>
+			<key>question</key>
+			<string>Is my compassion only a result of being a creature of habit who feels badly when another suffers, or do I actually apply myself to examine and refine my compassion, observing its limitations and forms of expression?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>87</integer>
+			<key>question</key>
+			<string>Is my compassion beautiful?</string>
+			<key>contentBefore</key>
+			<string>&amp;nbsp;&lt;br/&gt;&lt;b&gt;HOW DO I EXPRESS COMPASSION?&lt;/b&gt;</string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>88</integer>
+			<key>question</key>
+			<string>Is it well-rounded?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>89</integer>
+			<key>question</key>
+			<string>Does it contain the other six elements of tiferet, without which my full compassion remains unrealized?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

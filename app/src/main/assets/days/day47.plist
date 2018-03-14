@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>47</integer>
+	<key>week</key>
+	<integer>7</integer>
+	<key>dayOfWeek</key>
+	<integer>5</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 47 days, which are six weeks and five days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es cuarenta y siete días, que son seis semanas y cinco días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est quarante-sept jours, qui sont six semaines et cinq jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ СОРОК СЕМЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ШЕСТЬ НЕДЕЛЬ И ПЯТЬ ДНЕЙ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שִׁבְעָה וְאַרְבָּעִים יוֹם שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת וַחֲמִשָּׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Hod ShebeMalchus</string>
+		<key>es</key>
+		<string>Hod ShebeMaljut</string>
+		<key>fr</key>
+		<string>Hod chebeMalkhout</string>
+		<key>ru</key>
+		<string>ОЙД ШЕБЕ-МАЛХУС</string>
+		<key>hb</key>
+		<string>הוֹד שֶׁבְּמַלְכוּת</string>
+	</dict>
+	<key>title</key>
+	<string>Hod of Malchut</string>
+	<key>subtitle</key>
+	<string>Humility in Nobility</string>
+	<key>content</key>
+	<string>Sovereignty is G-d&apos;s gift to each individual. Hod of malchut is the humble appreciation of this exceptional gift.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Yes You Really Actually Matter</string>
+		<key>description</key>
+		<string>Your worth is something that nobody can take away from you, because nobody gave it to you. Your parents cannot take it from you. Your schoolmates cannot take it from you. Try as they might to make you feel worthless, they have no real effect on your worth as a person. G-d, and only G-d, gives you your worth. If your self-esteem is low, you can remedy it at the source by getting in touch with YOUR source -- your true self the soul level. In this video, Rabbi Jacobson discusses your inherent worth as a human.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/jeu31CrrX3Y</string>
+	</dict>
+	<key>exercise</key>
+	<string>Acknowledge G-d for creating you with personal dignity.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>216</integer>
+			<key>question</key>
+			<string>Does my sovereignty and independence humble me?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>217</integer>
+			<key>question</key>
+			<string>Am I an arrogant leader?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>218</integer>
+			<key>question</key>
+			<string>Do I appreciate the special qualities with which I was blessed?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>15</integer>
+	<key>week</key>
+	<integer>3</integer>
+	<key>dayOfWeek</key>
+	<integer>1</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 15 days, which are two weeks and one day, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es quince días, que son dos semanas y un día del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est quinze jours, qui sont deux semaines et un jour du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ПЯТНАДЦАТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ДВЕ НЕДЕЛИ И ОДНИ ДЕНЬ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם חֲמִשָּׁה עָשָׂר יוֹם שֶׁהֵם שְׁנֵי שָׁבוּעוֹת וְיוֹם אֶחָד לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Chesed ShebeTiferes</string>
+		<key>es</key>
+		<string>Jesed ShebeTiferet</string>
+		<key>fr</key>
+		<string>Hessed chebeTiféret</string>
+		<key>ru</key>
+		<string>ХЕСЕД ШЕБЕ-ТИФЕРЕС</string>
+		<key>hb</key>
+		<string>חֶֽסֶד שֶׁבְּתִפְאֶרֶת</string>
+	</dict>
+	<key>title</key>
+	<string>Chesed of Tiferet</string>
+	<key>subtitle</key>
+	<string>Lovingkindness in Compassion</string>
+	<key>content</key>
+	<string>Examine the love aspect of compassion.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>How to be an Emotionally Warm Person</string>
+		<key>description</key>
+		<string>How can you be an emotionally warm person in a cold, hostile world? Is there a way to be open and giving without being naive or taken advantage of? Please join Rabbi Simon Jacobson, best-selling author of Toward a Meaningful Life and counselor to thousands, for a short, inspiring talk on how to be an emotionally warm person. Learn the key to brightening and warming your corner of the world.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/vKSAlyXMk5w</string>
+	</dict>
+	<key>exercise</key>
+	<string>When helping someone, extend yourself in the fullest way. Offer a smile or a loving gesture.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>59</integer>
+			<key>question</key>
+			<string>Is my compassion tender and loving or does it come across as pity?</string>
+			<key>contentBefore</key>
+			<string>&lt;b&gt;Ask yourself:&lt;/b&gt;</string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>60</integer>
+			<key>question</key>
+			<string>Is my sympathy condescending and patronizing?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>61</integer>
+			<key>question</key>
+			<string>Even if my intention is otherwise, do others perceive it as such?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>62</integer>
+			<key>question</key>
+			<string>Does my compassion overflow with love and warmth; is it expressed with enthusiasm or is it static and lifeless?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

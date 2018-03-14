@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>44</integer>
+	<key>week</key>
+	<integer>7</integer>
+	<key>dayOfWeek</key>
+	<integer>2</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 44 days, which are six weeks and two days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es cuarenta y cuatro días, que son seis semanas y dos días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est quarante-quatre jours, qui sont six semaines et deux jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ СОРОК ЧЕТЫРЕ ДНЯ - ЧТО СОСТАВЛЯЕТ ШЕСТЬ НЕДЕЛЬ И ДВА ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם אַרְבָּעָה וְאַרְבָּעִים יוֹם שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת וּשְׁנֵי יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Gevurah ShebeMalchus</string>
+		<key>es</key>
+		<string>Gevura ShebeMaljut</string>
+		<key>fr</key>
+		<string>Guevoura chebeMalkhout</string>
+		<key>ru</key>
+		<string>ГВУРО ШЕБЕ-МАЛХУС</string>
+		<key>hb</key>
+		<string>גְּבוּרָה שֶׁבְּמַלְכוּת</string>
+	</dict>
+	<key>title</key>
+	<string>Gevurah of Malchut</string>
+	<key>subtitle</key>
+	<string>Discipline in Nobility</string>
+	<key>content</key>
+	<string>Examine the discipline of your sovereignty and leadership. Although sovereignty is loving, it needs to be balanced with discipline. Effective leadership is built on authority and discipline. There is another factor in the discipline of sovereignty: determining the area in which you have jurisdiction and authority.
+
+Dignity also needs discipline. A dignified person needs to have a degree of reserve.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>How to Find the Leader in Yourself</string>
+		<key>description</key>
+		<string>We may look to managers and visionaries as leaders, but each one of us has the potential to be a leader. These are the five key features that we can all work on so that we can each direct our own destinies: S. -- Solutions. A leader looks for the solution. A O. -- Opportunity. A leader turns a liability into an asset. L. -- Long-term picture. A leader has a bird&apos;s eye view. I. -- Influencer. Leaders leave an impact by taking initiative. D. -- Direction towards a desination. Keep the end in mind.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/zMi8QuUdo_0</string>
+	</dict>
+	<key>exercise</key>
+	<string>Before taking an authoritative position on any given issue, pause and reflect if you have the right and the ability to exercise authority in this situation.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>199</integer>
+			<key>question</key>
+			<string>Do I recognize when I am not an authority?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>200</integer>
+			<key>question</key>
+			<string>Do I exercise authority in unwarranted situations?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>201</integer>
+			<key>question</key>
+			<string>Am I aware of my limitations as well as my strengths?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>202</integer>
+			<key>question</key>
+			<string>Do I respect the authority of others?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string>&lt;/br&gt;Dignity also needs discipline. A dignified person needs to have a degree of reserve.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

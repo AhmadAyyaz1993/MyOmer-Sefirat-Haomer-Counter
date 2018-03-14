@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>48</integer>
+	<key>week</key>
+	<integer>7</integer>
+	<key>dayOfWeek</key>
+	<integer>6</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 48 days, which are six weeks and six days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es cuarenta y ocho días, que son seis semanas y seis días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est quarante-huit jours, qui sont six semaines et six jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ СОРОК ВОСЕМЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ШЕСТЬ НЕДЕЛЬ И ШЕСТЬ ДНЕЙ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שְׁמוֹנָה וְאַרְבָּעִים יוֹם שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת וְשִׁשָּׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Yesod ShebeMalchus</string>
+		<key>es</key>
+		<string>Iesod ShebeMaljut</string>
+		<key>fr</key>
+		<string>Yessod chebeMalkhout</string>
+		<key>ru</key>
+		<string>ЙЕСОЙД ШЕБЕ-МАЛХУС</string>
+		<key>hb</key>
+		<string>יְסוֹד שֶׁבְּמַלְכוּת</string>
+	</dict>
+	<key>title</key>
+	<string>Yesod of Malchut</string>
+	<key>subtitle</key>
+	<string>Bonding in Nobility</string>
+	<key>content</key>
+	<string>Examine the bonding aspect of your sovereignty. Healthy independence should not prevent you from bonding with another person. On the contrary: self-confidence allows you to respect and trust another&apos;s sovereignty and ultimately bond with him. That bond will strengthen your own sovereignty rather than sacrifice it.</string>
+	<key>exercise</key>
+	<string>Actualize your sovereignty by intensifying your bond with a close one.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>219</integer>
+			<key>question</key>
+			<string>Does my sovereignty prevent me from bonding?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>220</integer>
+			<key>question</key>
+			<string>Could that be because of deeper insecurities of which I am unaware?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>221</integer>
+			<key>question</key>
+			<string>Do I recognize the fact that a fear of bonding reflects a lack of self-confidence in my own sovereignty?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>222</integer>
+			<key>question</key>
+			<string>Do I talk to the one with whom I bond and discuss my fears that bonding will compromise my boundaries?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

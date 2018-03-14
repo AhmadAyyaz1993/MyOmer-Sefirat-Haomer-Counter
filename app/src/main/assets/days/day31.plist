@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>31</integer>
+	<key>week</key>
+	<integer>5</integer>
+	<key>dayOfWeek</key>
+	<integer>3</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 31 days, which are four weeks and three days, of the Omer</string>
+		<key>es</key>
+		<string>Hoy es treinta y un días, que son cuatro semanas y tres días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est trente et un jours, qui sont quatre semaines et trois jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ТРИДЦАТЬ ОДИН ДЕНЬ - ЧТО СОСТАВЛЯЕТ ЧЕТЫРЕ НЕДЕЛИ И ТРИ ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם אֶחָד וּשְׁלֹשִׁים יוֹם שֶׁהֵם אַרְבָּעָה שָׁבוּעוֹת וּשְׁלֹשָׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Tiferes ShebeHod</string>
+		<key>es</key>
+		<string>Tiferet ShebeHod</string>
+		<key>fr</key>
+		<string>Tiféret chebeHod</string>
+		<key>ru</key>
+		<string>ТИФЕРЕС ШЕБЕ-ОД</string>
+		<key>hb</key>
+		<string>תִּפְאֶֽרֶת שֶׁבְּהוֹד</string>
+	</dict>
+	<key>title</key>
+	<string>Tiferet of Hod</string>
+	<key>subtitle</key>
+	<string>Compassion in Humility</string>
+	<key>content</key>
+	<string>Examine if your humility is compassionate.
+
+Just as humility brings compassion, compassion can lead one to humility. If you lack humility, try acting compassionately, which can help bring you to humility.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Shyness, Insecurity and Social Anxiety</string>
+		<key>description</key>
+		<string>A viewer asks: &quot;I have some social issues. I have a hard time relating to other people. I feel like I have nothing to talk about with other people. I feel like an isolated loser.&quot;</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/Oxlc2zJ9gQ4</string>
+	</dict>
+	<key>exercise</key>
+	<string>Express a humble feeling in an act of compassion.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>148</integer>
+			<key>question</key>
+			<string>Does my humility cause me to be self-contained and anti-social or does it express itself in empathy for others?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>149</integer>
+			<key>question</key>
+			<string>Is my humility balanced and beautiful?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>150</integer>
+			<key>question</key>
+			<string>Or is it awkward?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string>&amp;nbsp;&lt;/br&gt; Just as humility brings compassion, compassion can lead one to humility. If you lack humility, try acting compassionately, which can help bring you to humility</string>
+		</dict>
+	</array>
+</dict>
+</plist>

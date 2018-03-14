@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>2</integer>
+	<key>week</key>
+	<integer>1</integer>
+	<key>dayOfWeek</key>
+	<integer>2</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is two days of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es dos días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est deux jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ДВА ДНЯ ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שְׁנֵי יָמִים לָעֽוֹמֶר:</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Gevurah ShebeChesed</string>
+		<key>es</key>
+		<string>Gevura ShebeJesed</string>
+		<key>fr</key>
+		<string>Guevoura chebe&apos;Hessed</string>
+		<key>ru</key>
+		<string>ГВУРО ШЕБЕ-ХЕСЕД</string>
+		<key>hb</key>
+		<string>גְּבוּרָה שֶׁבְּחֶֽסֶד</string>
+	</dict>
+	<key>title</key>
+	<string>Gevurah of Chesed</string>
+	<key>subtitle</key>
+	<string>Discipline in Lovingkindness</string>
+	<key>content</key>
+	<string>Healthy love must always include an element of discipline and discernment: a degree of distance and respect for the other; an assessment of another&apos;s capacity to contain your love. Love must be tempered and directed properly. Ask a parent who, in the name of love, has spoiled his child; or someone who suffocates his or her spouse with love and doesn&apos;t allow the other any space of his or her own. Love with discretion is necessary to avoid giving to those who would use loving to perpetuate negative behavior.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>What is Our Obligation to Homeless People?</string>
+		<key>description</key>
+		<string>You pass a homeless person on the street and you put a coin in his or her cup. Is that a demonstration of empathy, or should you do more? In this video, Rabbi Simon Jacobson discusses the emotional attribute of empathy in light of this question. What defines healthy empathy? While we should certainly help people, often the way we help people — and when — is dependent on our emotions-of-the-moment. One day you may feel kindness to a homeless person, and on another day you may choose to ignore him or her or even get angry at the presence of a vagrant disturbing your comfort zone. How do we determine when and how we should be helping others? Is it dependent on our own subjectivity? Does it matter if it is coming out of guilt or other self-serving reasons, as long as the beneficiary gets whatever material gift we give them? Is it selfish to think that we’re getting something out of selflessness? Kabbalah says that on the soul level, there is in fact something in it for us when we give. Though the focus is on the recipient, the giver receives in return more than the recipient does. When we give, we receive spiritual and emotional energy — the good kind of energy that empowers us to fulfill our purpose in life, and that nourishes our souls and specifically our empathy faculty. The catch is that in order to receive that spiritual energy, we have to give compassionately, and compassion takes practice. Just like the human body has parts, the soul has parts. And just like parts of the human body will atrophy if left unused, the soul needs exercise. (That’s why the Meaningful Life Center offers Soul Workouts.) When you develop your empathy “muscles” through practice and honest self-evaluation, you become empowered to help homeless people — and everybody else. Giving is not about you, but about the recipient. But when you give, you become a far healthier and greater person.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/4EryI-Gswfk</string>
+	</dict>
+	<key>exercise</key>
+	<string>Help others on their terms... not on yours. Apply yourself to their specific needs, even if it takes effort.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>19</integer>
+			<key>question</key>
+			<string>Is my love disciplined enough?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>20</integer>
+			<key>question</key>
+			<string>Do others take advantage of my giving nature?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>21</integer>
+			<key>question</key>
+			<string>Am I hurting others by becoming their crutch in the name of love?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>22</integer>
+			<key>question</key>
+			<string>Am I hurting my children by forcing upon them my value system because I love them so?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>23</integer>
+			<key>question</key>
+			<string>Do I respect the one I love or is it a selfish love?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>24</integer>
+			<key>question</key>
+			<string>Am I sensitive to his or her feelings and attitudes?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>25</integer>
+			<key>question</key>
+			<string>Do I see my loved one as an extension of myself and my needs?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>26</integer>
+			<key>question</key>
+			<string>Do I take into account the capacity of my partner to receive love before I give it?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>27</integer>
+			<key>question</key>
+			<string>Is my love given appropriately?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string>&lt;center&gt;&lt;b&gt;Rain is a blessing only because it falls in drops that don&amp;apos;t flood the fields.&lt;/b&gt;&lt;/center&gt;</string>
+		</dict>
+	</array>
+</dict>
+</plist>

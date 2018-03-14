@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>4</integer>
+	<key>week</key>
+	<integer>1</integer>
+	<key>dayOfWeek</key>
+	<integer>4</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is four days of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es cuatro días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est quatre jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ЧЕТЫРЕ ДНЯ ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם אַרְבָּעָה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Netzach ShebeChesed</string>
+		<key>es</key>
+		<string>Netzaj ShebeJesed</string>
+		<key>fr</key>
+		<string>Netsa&apos;h chebe&apos;Hessed</string>
+		<key>ru</key>
+		<string>НЕЦАХ ШЕБЕ-ХЕСЕД</string>
+		<key>hb</key>
+		<string>נֶֽצַח שֶׁבְּחֶֽסֶד</string>
+	</dict>
+	<key>title</key>
+	<string>Netzach of Chesed</string>
+	<key>subtitle</key>
+	<string>Endurance in Lovingkindness</string>
+	<key>content</key>
+	<string>null</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>The Secret to Lasting Love</string>
+		<key>description</key>
+		<string>Transcendence is the secret to lasting love. If the word &quot;transcendence&quot; is as mysterious as the secret itself, watch this short and insightful video by renowned spiritual teacher Rabbi Simon Jacobson.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/XUaxfnRlRps</string>
+		<key>exercise</key>
+		<string>Find a new way to express your love to a dear one.</string>
+	</dict>
+	<key>exercise</key>
+	<string>Reassure a loved one of the constancy of your love.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>28</integer>
+			<key>question</key>
+			<string>Is my love enduring?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>29</integer>
+			<key>question</key>
+			<string>Does it withstand challenges and setbacks?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>30</integer>
+			<key>question</key>
+			<string>Do I give and withhold love according to my moods or is it constant, regardless of the ups and downs of life?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>31</integer>
+			<key>question</key>
+			<string>Am I willing to work at my relationships and fight for the love I have?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string>&amp;nbsp;</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>32</integer>
+			<key>question</key>
+			<string>Does my love have spirit and valor?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>33</integer>
+			<key>question</key>
+			<string>Can I be counted on in the good times as well as the bad?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

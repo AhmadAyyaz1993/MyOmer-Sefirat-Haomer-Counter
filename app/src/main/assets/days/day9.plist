@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>9</integer>
+	<key>week</key>
+	<integer>2</integer>
+	<key>dayOfWeek</key>
+	<integer>2</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is nine days, which are one week and two days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es nueve días, que son una semana y dos días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est neuf jours, qui sont une semaine et deux jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ДЕВЯТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ОДНУ НЕДЕЛЮ И ДВА ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם תִּשְׁעָה יָמִים שֶׁהֵם שָׁבֽוּעַ אֶחָד וּשְׁנֵי יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Gevurah ShebeGevurah</string>
+		<key>es</key>
+		<string>Gevura ShebeGevura</string>
+		<key>fr</key>
+		<string>Guevoura chebiGuevoura</string>
+		<key>ru</key>
+		<string>ГВУРО ШЕБЕ-ГВУРО</string>
+		<key>hb</key>
+		<string>גְּבוּרָה שֶׁבִּגְבוּרָה</string>
+	</dict>
+	<key>title</key>
+	<string>Gevurah of Gevurah</string>
+	<key>subtitle</key>
+	<string>Discipline in Discipline</string>
+	<key>content</key>
+	<string>null</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Balancing Work Famiy and Volunteering</string>
+		<key>description</key>
+		<string>A viewer wrote to Rabbi Jacobson asking for help with balancing volunteer work responsibilities with spending time with his family. Rabbi Jacobson suggested a no-compromise approach through a creative family-oriented plan.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/a-Y5JjKp740</string>
+	</dict>
+	<key>exercise</key>
+	<string>Make a detailed plan for spending your day and at the end of the day see if you&apos;ve lived up to it.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>43</integer>
+			<key>question</key>
+			<string>Is my discipline reasonably restrained or is it excessive?</string>
+			<key>contentBefore</key>
+			<string>&lt;b&gt;Examine the discipline factor of discipline:&lt;/b&gt;</string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>44</integer>
+			<key>question</key>
+			<string>Do I have enough discipline in my life and in my interactions?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>45</integer>
+			<key>question</key>
+			<string>Am I organized?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>46</integer>
+			<key>question</key>
+			<string>Is my time used efficiently?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>47</integer>
+			<key>question</key>
+			<string>Why do I have problems with discipline and what can I do to enhance it?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>48</integer>
+			<key>question</key>
+			<string>Do I take time each day for personal accounting of my schedule and accomplishments?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>49</integer>
+			<key>question</key>
+			<string>Does my discipline include the other six emotional aspects, without which discipline cannot be effective and healthy?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>46</integer>
+	<key>week</key>
+	<integer>7</integer>
+	<key>dayOfWeek</key>
+	<integer>4</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 46 days,which are six weeks and four days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es cuarenta y seis días, que son seis semanas y cuatro días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est quarante-six jours, qui sont six semaines et quatre jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ СОРОК ШЕСТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ШЕСТЬ НЕДЕЛЬ И ЧЕТЫРЕ ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שִׁשָּׁה וְאַרְבָּעִים יוֹם שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת וְאַרְבָּעָה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Netzach ShebeMalchus</string>
+		<key>es</key>
+		<string>Netzaj ShebeMaljut</string>
+		<key>fr</key>
+		<string>Netsa&apos;h chebeMalkhout</string>
+		<key>ru</key>
+		<string>НЕЦАХ ШЕБЕ-МАЛХУС</string>
+		<key>hb</key>
+		<string>נֶֽצַח שֶׁבְּמַלְכוּת</string>
+	</dict>
+	<key>title</key>
+	<string>Netzach of Malchut</string>
+	<key>subtitle</key>
+	<string>Endurance in Nobility</string>
+	<key>content</key>
+	<string>A person&apos;s dignity and a leader&apos;s success is tested by his endurance level. Will and determination reflect the power and majesty of the human spirit, the strength of one&apos;s sovereignty.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Our Responsibility is to Shine</string>
+		<key>description</key>
+		<string>Our responsibility as humans and as citizens of the world is to shine out our unique lights. In any situation, we can&apos;t rely on others or on the sitution to provide the positive energy. We need to show up and radiate our true inner goodness -- it is one of the best things to do for other people. You can iuminate your corner of the world.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/orLxebk3J18</string>
+	</dict>
+	<key>exercise</key>
+	<string>Act on something that you believe in but have until now been tentative about. Take the leap and just do it!</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>211</integer>
+			<key>question</key>
+			<string>How determined am I in reaching my goals?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>212</integer>
+			<key>question</key>
+			<string>How strong is my conviction to fight for a dignified cause?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>213</integer>
+			<key>question</key>
+			<string>How confident am I in myself?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>214</integer>
+			<key>question</key>
+			<string>Is my lack of endurance a result of my low self-esteem?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>215</integer>
+			<key>question</key>
+			<string>Do I mask my insecurities by finding other excuses for my low endurance level?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

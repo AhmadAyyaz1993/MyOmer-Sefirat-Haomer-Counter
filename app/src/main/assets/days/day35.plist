@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>35</integer>
+	<key>week</key>
+	<integer>5</integer>
+	<key>dayOfWeek</key>
+	<integer>7</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 35 days, which are five weeks, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es treinta y cinco días, que son cinco semanas del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est trente-cinq jours, qui sont cinq semaines du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ТРИДЦАТЬ ПЯТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ПЯТЬ НЕДЕЛЬ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם חֲמִשָּׁה וּשְׁלֹשִׁים יוֹם שֶׁהֵם חֲמִשָּׁה שָׁבוּעוֹת לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Malchus ShebeHod</string>
+		<key>es</key>
+		<string>Maljut ShebeHod</string>
+		<key>fr</key>
+		<string>Malkhout chebeHod</string>
+		<key>ru</key>
+		<string>МАЛХУС ШЕБЕ-ОЙД</string>
+		<key>hb</key>
+		<string>מַלְכוּת שֶׁבְּהוֹד</string>
+	</dict>
+	<key>title</key>
+	<string>Malchut of Hod</string>
+	<key>subtitle</key>
+	<string>Nobility in Humility</string>
+	<key>content</key>
+	<string>Walking humbly is walking tall. Dignity is the essence of humility and modesty. The splendor of humility is majestic and aristocratic. Humility that suppresses the human spirit and denies individual sovereignty is not humility at all.</string>
+	<key>exercise</key>
+	<string>Teach someone how humility and modesty enhance human dignity.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>168</integer>
+			<key>question</key>
+			<string>Does my humility make me feel dignified?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>169</integer>
+			<key>question</key>
+			<string>Do I feel alive and vibrant?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>27</integer>
+	<key>week</key>
+	<integer>4</integer>
+	<key>dayOfWeek</key>
+	<integer>6</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 27 days, which are three weeks and six days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es veintisiete días, que son tres semanas y seis días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est vingt-sept jours, qui sont trois semaines et six jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ДВАДЦАТЬ СЕМЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ТРИ НЕДЕЛИ И ШЕСТЬ ДНЕЙ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שִׁבְעָה וְעֶשְׂרִים יוֹם שֶׁהֵם שְׁלֹשָׁה שָׁבוּעוֹת וְשִׁשָּׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Yesod ShebeNetzach</string>
+		<key>es</key>
+		<string>Iesod ShebeNetzaj</string>
+		<key>fr</key>
+		<string>Yessod chebeNetsa&apos;h</string>
+		<key>ru</key>
+		<string>ЙЕСОЙД ШЕБЕ-НЕЦАХ</string>
+		<key>hb</key>
+		<string>יְסוֹד שֶׁבְּנֶֽצַח</string>
+	</dict>
+	<key>title</key>
+	<string>Yesod of Netzach</string>
+	<key>subtitle</key>
+	<string>Bonding in Endurance</string>
+	<key>content</key>
+	<string>Bonding is an essential quality of endurance. It expresses your unwavering commitment to the person or experience with which you are bonding, a commitment so powerful that you will endure all to preserve it.
+
+Endurance without bonding will not endure.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Bad Mood Remedy: Commitment to a Cause</string>
+		<key>description</key>
+		<string>It can be challenging to extract yourself from the weight of a bad mood. One solution: commitment to a cause. Join Rabbi Jacobson for this short, inspiring video discussing the importance of commitment, and how it can help you to transcend your perceived personal limitations.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/pQXEk1awVXQ</string>
+	</dict>
+	<key>exercise</key>
+	<string>To ensure the endurance of your new resolution, bond with it immediately. This can be assured by promptly actualizing your resolution in some constructive deed or committing yourself to another.</string>
+	<key>questions</key>
+	<array/>
+</dict>
+</plist>

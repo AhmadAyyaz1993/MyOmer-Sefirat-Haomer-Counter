@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>43</integer>
+	<key>week</key>
+	<integer>7</integer>
+	<key>dayOfWeek</key>
+	<integer>1</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 43 days, which are six weeks and one day, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es cuarenta y tres días, que son seis semanas y un día del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est quarante-trois jours, qui sont six semaines et un jour du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ СОРОК ТРИ ДНЯ - ЧТО СОСТАВЛЯЕТ ШЕСТЬ НЕДЕЛЬ И ОДИН ДЕНЬ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שְׁלֹשָׁה וְאַרְבָּעִים יוֹם שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת וְיוֹם אֶחָד לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Chesed ShebeMalchus</string>
+		<key>es</key>
+		<string>Jesed ShebeMaljut</string>
+		<key>fr</key>
+		<string>Hessed chebeMalkhout</string>
+		<key>ru</key>
+		<string>ХЕСЕД ШЕБЕ-МАЛХУС</string>
+		<key>hb</key>
+		<string>חֶֽסֶד שֶׁבְּמַלְכוּת</string>
+	</dict>
+	<key>title</key>
+	<string>Chesed of malchut</string>
+	<key>subtitle</key>
+	<string>Lovingkindness in Nobility</string>
+	<key>content</key>
+	<string>Healthy sovereignty is always kind and loving. An effective leader needs to be warm and considerate.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>The Problem With Being a Good Person</string>
+		<key>description</key>
+		<string></string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/Vic7xn4OeuI</string>
+	</dict>
+	<key>exercise</key>
+	<string>Do something kind for your subordinates.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>196</integer>
+			<key>question</key>
+			<string>Does my sovereignty make me more loving?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>197</integer>
+			<key>question</key>
+			<string>Do I exercise my authority and leadership in a caring manner?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>198</integer>
+			<key>question</key>
+			<string>Do I impose my authority on others?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

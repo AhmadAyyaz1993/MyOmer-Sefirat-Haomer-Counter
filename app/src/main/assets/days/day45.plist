@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>45</integer>
+	<key>week</key>
+	<integer>7</integer>
+	<key>dayOfWeek</key>
+	<integer>3</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 45 days, which are six weeks and three days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es cuarenta y cinco días, que son seis semanas y tres días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est quarante-cinq jours, qui sont six semaines et trois jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ СОРОК ПЯТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ШЕСТЬ НЕДЕЛЬ И ТРИ ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם חֲמִשָּׁה וְאַרְבָּעִים יוֹם שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת וּשְׁלֹשָׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Tiferes ShebeMalchus</string>
+		<key>es</key>
+		<string>Tiferet ShebeMaljut</string>
+		<key>fr</key>
+		<string>Tiféret chebeMalkhout</string>
+		<key>ru</key>
+		<string>ТИФЕРЕС ШЕБЕ-МАЛХУС</string>
+		<key>hb</key>
+		<string>תִּפְאֶֽרֶת שֶׁבְּמַלְכוּת</string>
+	</dict>
+	<key>title</key>
+	<string>Tiferet of Malchut</string>
+	<key>subtitle</key>
+	<string>Compassion in Nobility</string>
+	<key>content</key>
+	<string>Examine the compassion of sovereignty. A good leader is a compassionate one.</string>
+	<key>exercise</key>
+	<string>Review an area where you wield authority and see if you can polish it up and increase its effectiveness ,by curtailing excesses and consolidating forces.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>203</integer>
+			<key>question</key>
+			<string>Is my compassion compromised because of my authority?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>204</integer>
+			<key>question</key>
+			<string>Do I realize that an integral part of dignity is compassion?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>205</integer>
+			<key>question</key>
+			<string>Do I manage a smooth--running operation?</string>
+			<key>contentBefore</key>
+			<string>&lt;/br&gt;&lt;b&gt;Tiferet -- harmony --&lt;/b&gt; is critical for successful leadership.</string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>206</integer>
+			<key>question</key>
+			<string>Am I organized?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>207</integer>
+			<key>question</key>
+			<string>Do I give clear instructions to my subordinates?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>208</integer>
+			<key>question</key>
+			<string>Do I have difficulty delegating power?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>209</integer>
+			<key>question</key>
+			<string>Does my organization work as a team?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>210</integer>
+			<key>question</key>
+			<string>Do we have frequent staff meetings to coordinate our goals and efforts?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

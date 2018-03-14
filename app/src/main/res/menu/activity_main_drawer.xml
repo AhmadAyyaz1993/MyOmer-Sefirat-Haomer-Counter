@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="">
+        <menu>
+        <item
+            android:id="@+id/omer_chart"
+            android:title="Omer Chart" />
+        <item
+            android:id="@+id/settings"
+            android:title="Settings" />
+        </menu>
+    </item>
+
+
+    <item android:title="">
+        <menu>
+        <item
+            android:id="@+id/goToBook"
+            android:title="Get the book" />
+        <item
+            android:id="@+id/donate"
+            android:title="Donate" />
+        <item
+            android:id="@+id/techSupport"
+            android:title="Tech Support" />
+        </menu>
+    </item>
+
+
+    <item android:title="">
+        <menu>
+
+            <item
+                android:id="@+id/whatIsOmer"
+                android:title="What is Omer" />
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>

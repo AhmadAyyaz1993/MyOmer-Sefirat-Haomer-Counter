@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>6</integer>
+	<key>week</key>
+	<integer>1</integer>
+	<key>dayOfWeek</key>
+	<integer>6</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is six days of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es seis días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est six jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ШЕСТЬ ДНЕЙ ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שִׁשָּׁה יָמִים לָעֽוֹמֶר:</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Yesod ShebeChesed</string>
+		<key>es</key>
+		<string>Iesod ShebeJesed</string>
+		<key>fr</key>
+		<string>Yessod chebe&apos;Hessed</string>
+		<key>ru</key>
+		<string>ЙЕСОЙД ШЕБЕ-ХЕСЕД</string>
+		<key>hb</key>
+		<string>יְסוֹד שֶׁבְּחֶֽסֶד</string>
+	</dict>
+	<key>title</key>
+	<string>Yesod of Chesed</string>
+	<key>subtitle</key>
+	<string>Bonding in Lovingkindness</string>
+	<key>content</key>
+	<string>For love to be eternal it requires bonding; a sense of togetherness which actualizes the love with a joint effort. Eternal love requires an intimate connection, kinship and attachment, one that benefits both parties. This bonding bears fruit; the fruit borne out of a healthy union.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>The Nature of Real Romantic Relationships</string>
+		<key>description</key>
+		<string>Can you have a relationship without commitment? Is a real relationship possible when one or both people avoid being vulnerable? And how do you define love? Is it a noun or a verb? A state of being or an act? Join best-selling author and counselor Rabbi Simon Jacobson for a short, frank discussion about the nature of love and intimacy. Empower yourself to find and maintain the loving relationship that you&apos;ve always wanted.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/m_OGJOkIKtU</string>
+	</dict>
+	<key>exercise</key>
+	<string>Start building something constructive together with a loved one.</string>
+	<key>questions</key>
+	<array/>
+</dict>
+</plist>

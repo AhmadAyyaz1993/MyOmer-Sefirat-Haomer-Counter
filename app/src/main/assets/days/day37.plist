@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>37</integer>
+	<key>week</key>
+	<integer>6</integer>
+	<key>dayOfWeek</key>
+	<integer>2</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 37 days, which are five weeks and two days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es treinta y siete días que son cinco semanas y dos días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est trente-sept jours, qui sont cinq semaines et deux jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ТРИДЦАТЬ СЕМЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ПЯТЬ НЕДЕЛЬ И ДВА ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שִׁבְעָה וּשְׁלֹשִׁים יוֹם שֶׁהֵם חֲמִשָּׁה שָׁבוּעוֹת וּשְׁנֵי יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Gevurah ShebeYesod</string>
+		<key>es</key>
+		<string>Gevura ShebeIesod</string>
+		<key>fr</key>
+		<string>Guevoura chebeYessod</string>
+		<key>ru</key>
+		<string>ГВУРО ШЕБЕ-ЙЕСОЙД</string>
+		<key>hb</key>
+		<string>גְּבוּרָה שֶׁבִּיסוֹד</string>
+	</dict>
+	<key>title</key>
+	<string>Gevurah of Yesod</string>
+	<key>subtitle</key>
+	<string>Discipline in Bonding</string>
+	<key>content</key>
+	<string>Examine the discipline of your bonding. Bonding must be done with discretion and careful consideration with whom and with what you bond. Even the healthiest and closest bonding needs &quot;time out,” a respect for each individual&apos;s space.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>We All Come From One Place</string>
+		<key>description</key>
+		<string>The antidote to divisiveness and to cognitive dissonance is to acknowledge that we all come from one place. We all share one soul. This is practical Kabbalah.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/uQZgt1xh-6Y</string>
+	</dict>
+	<key>exercise</key>
+	<string>Review your bonding experiences to see if they need more discipline or change.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>172</integer>
+			<key>question</key>
+			<string>Do I overbond?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>173</integer>
+			<key>question</key>
+			<string>Am I too dependent on the one I bond with?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>174</integer>
+			<key>question</key>
+			<string>Is he too dependent on me?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>175</integer>
+			<key>question</key>
+			<string>Do I bond out of desperation?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>176</integer>
+			<key>question</key>
+			<string>Do I bond with healthy, wholesome people?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

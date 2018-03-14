@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>25</integer>
+	<key>week</key>
+	<integer>4</integer>
+	<key>dayOfWeek</key>
+	<integer>4</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 25 days, which are three weeks and four days, of the Omer</string>
+		<key>es</key>
+		<string>Hoy es veinticinco días, que son tres semanas y cuatro días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est vingt-cinq jours, qui sont trois semaines et quatre jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ДВАДЦАТЬ ПЯТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ТРИ НЕДЕЛИ И ЧЕТЫРЕ ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם חֲמִשָּׁה וְעֶשְׂרִים יוֹם שֶׁהֵם שְׁלֹשָׁה שָׁבוּעוֹת וְאַרְבָּעָה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Netzach ShebeNetzach</string>
+		<key>es</key>
+		<string>Netzaj ShebeNetzaj</string>
+		<key>fr</key>
+		<string>Netsa&apos;h chebeNetsa&apos;h</string>
+		<key>ru</key>
+		<string>НЕЦАХ ШЕБЕ-НЕЦАХ</string>
+		<key>hb</key>
+		<string>נֶֽצַח שֶׁבְּנֶֽצַח</string>
+	</dict>
+	<key>title</key>
+	<string>Netzach of Netzach</string>
+	<key>subtitle</key>
+	<string>Endurance in Endurance</string>
+	<key>content</key>
+	<string>Examine the endurance aspect of endurance, its expression and intensity. Everyone has willpower and determination. We have the capacity to endure much more than we can imagine, and to prevail under the most trying of circumstances.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>You Have No Right Not to Like Yourself</string>
+		<key>description</key>
+		<string>Your inherent worth does not depend on your mood. You might not feel like you like yourself, but it&apos;s not up to you to decide whether or not you&apos;re worth liking. You are a Divine creation, and the very fact that you are alive means that you have a mission and purpose in life. Don&apos;t cheat yourself out of your birthright -- and your birthright is a meaningful life.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/XWTGjJU3N1o</string>
+	</dict>
+	<key>exercise</key>
+	<string>Commit yourself to developing a new good habit.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>124</integer>
+			<key>question</key>
+			<string>Is my behavior erratic?</string>
+			<key>contentBefore</key>
+			<string>&lt;b&gt;Ask yourself:&lt;/b&gt;</string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>125</integer>
+			<key>question</key>
+			<string>Am I consistent and reliable?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>126</integer>
+			<key>question</key>
+			<string>Since I have will and determination, why am I so mercurial?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>127</integer>
+			<key>question</key>
+			<string>Am I afraid of accessing my endurance and ability to commit?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>128</integer>
+			<key>question</key>
+			<string>Do I fear being trapped by my commitment? If yes, why?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>129</integer>
+			<key>question</key>
+			<string>Is it a reaction to some past trauma?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>130</integer>
+			<key>question</key>
+			<string>Instead of cultivating endurance in healthy areas, have I developed a capacity for endurance of unhealthy experiences?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>131</integer>
+			<key>question</key>
+			<string>Do I endure more pain than pleasure?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>132</integer>
+			<key>question</key>
+			<string>Do I underestimate my capacity to endure?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

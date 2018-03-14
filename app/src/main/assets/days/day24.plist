@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>24</integer>
+	<key>week</key>
+	<integer>4</integer>
+	<key>dayOfWeek</key>
+	<integer>3</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 24 days, which are three weeks and three days of the Omer</string>
+		<key>es</key>
+		<string>Hoy es veinticuatro días que son tres semanas y tres días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est vingt-quatre jours, qui sont trois semaines et trois jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ДВАДЦАТЬ ЧЕТЫРЕ ДНЯ - ЧТО СОСТАВЛЯЕТ ТРИ НЕДЕЛИ И ТРИ ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם אַרְבָּעָה וְעֶשְׂרִים יוֹם שֶׁהֵם שְׁלֹשָׁה שָׁבוּעוֹת וּשְׁלֹשָׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Tiferes ShebeNetzach</string>
+		<key>es</key>
+		<string>Tiferet ShebeNetzaj</string>
+		<key>fr</key>
+		<string>Tiféret chebeNetsa&apos;h</string>
+		<key>ru</key>
+		<string>ТИФЕРЕС ШЕБЕ-НЕЦАХ</string>
+		<key>hb</key>
+		<string>תִּפְאֶֽרֶת שֶׁבְּנֶֽצַח</string>
+	</dict>
+	<key>title</key>
+	<string>Tiferet of Netzach</string>
+	<key>subtitle</key>
+	<string>Compassion in Endurance</string>
+	<key>content</key>
+	<string>Healthy endurance, directed to develop good qualities and modifying bad ones, will always be compassionate. The compassion of endurance reflects a most beautiful quality of endurance: an enduring commitment to help another grow. Endurance without compassion is misguided and selfish. Endurance needs to be not just loving to those who deserve love, but also compassionate to the less fortunate.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Do You See the Good or the Bad</string>
+		<key>description</key>
+		<string>What is your attitude when you look at yourself and others? Do you look at the beauty, or at the problems? The best approach is to look for the beauty, but to take initiative to clean up your own dust. Despite life’s challenges, your experiences will be better if you choose to focus on the positive and to help improve what you are able to.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/kUGhLvQIfAI</string>
+	</dict>
+	<key>exercise</key>
+	<string>Be patient and listen to someone who usually makes you impatient.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>121</integer>
+			<key>question</key>
+			<string>Does my determination compromise my compassion for others?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>122</integer>
+			<key>question</key>
+			<string>Am I able to rise above my ego and empathize with my competitors?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>123</integer>
+			<key>question</key>
+			<string>Am I gracious in victory?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

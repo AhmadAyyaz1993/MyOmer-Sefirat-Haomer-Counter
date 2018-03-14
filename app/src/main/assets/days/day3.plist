@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>3</integer>
+	<key>week</key>
+	<integer>1</integer>
+	<key>dayOfWeek</key>
+	<integer>3</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is three days of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es tres días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est trois jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ТРИ ДНЯ ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שְׁלֹשָׁה יָמִים לָעֽוֹמֶר:</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Tiferes ShebeChesed</string>
+		<key>es</key>
+		<string>Tiferet ShebeJesed</string>
+		<key>fr</key>
+		<string>Tiféret chebe&apos;Hessed</string>
+		<key>ru</key>
+		<string>ТИФЕРЕС ШЕБЕ-ХЕСЕД</string>
+		<key>hb</key>
+		<string>תִּפְאֶֽרֶת שֶׁבְּחֶֽסֶד</string>
+	</dict>
+	<key>title</key>
+	<string>Tiferet of Chesed</string>
+	<key>subtitle</key>
+	<string>Compassion, Harmony in Lovingkindness</string>
+	<key>content</key>
+	<string>Harmony in love is one that blends both the chesed and gevurah aspects of love. Harmonized love includes empathy and compassion. Love is often given with the expectation of receiving love in return. Compassionate love is given freely; expects nothing in return -- even when the other doesn&apos;t deserve love. Tiferet is giving also to those who have hurt you. It acknowledges the discipline of gevurah and, nevertheless, calls for compassionate love to all.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>The Magic of One Human Connection</string>
+		<key>description</key>
+		<string>How could one small interaction with one person change your life? Human connections are magical, able to channel blessings and to open doors that you would never expect. Join the Meaningful Life Center’s Rabbi Simon Jacobson for this quick video about why you should run to connect with other people — even one word could “tip the scales” of destiny.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/ZRI2ku8bO1k</string>
+	</dict>
+	<key>exercise</key>
+	<string>Offer a helping hand to a stranger.</string>
+	<key>questions</key>
+	<array/>
+</dict>
+</plist>

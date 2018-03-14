@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>8</integer>
+	<key>week</key>
+	<integer>2</integer>
+	<key>dayOfWeek</key>
+	<integer>1</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is eight days, which are one week and one day, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es ocho días que son una semana y un día del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est huit jours, qui sont une semaine et un jour du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ВОСЕМЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ОДНУ НЕДЕЛЮ И ОДИН ДЕНЬ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שְׁמוֹנָה יָמִים שֶׁהֵם שָׁבֽוּעַ אֶחָד וְיוֹם אֶחָד לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Chesed ShebeGevurah</string>
+		<key>es</key>
+		<string>Jesed ShebeGevura</string>
+		<key>fr</key>
+		<string>Hessed chebiGuevoura</string>
+		<key>ru</key>
+		<string>ХЕСЕД ШЕБЕ-ГВУРО</string>
+		<key>hb</key>
+		<string>חֶֽסֶד שֶׁבִּגְבוּרָה</string>
+	</dict>
+	<key>title</key>
+	<string>Chesed of Gevurah</string>
+	<key>subtitle</key>
+	<string>Lovingkindness in Discipline</string>
+	<key>content</key>
+	<string>The underlying intention and motive in discipline is love. Why do we measure our behavior, establish standards and expect people to live up to them - only because of love. Even judgment of the guilty is an expression of love. In other words, punishment is not vengeance; it is just another way to express love by cleansing anything antithetical to love. Tolerance of people should never be confused with tolerance of their behavior. On the contrary: love for people includes wanting them to be the best they can be and therefore helping them be aware of anything less than perfect behavior.
+
+Chesed of gevurah is the love in discipline; awareness of the intrinsic love that underlies discipline and judgment. It is the recognition that your personal discipline and the discipline you expect of others is only an expression of love. It is the understanding that we have no right to judge others; we have a right only to love them and that includes wanting them to be their best.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Judgmentalism</string>
+		<key>description</key>
+		<string>Judgmentalism, when you dissect it, really comes down to this: When a person is really secure with themselves they have no reason and need to be judgmental of others. They have their own identity and they&apos;re not in any way insecure or envious or jealous of anyone else&apos;s position. But when you are insecure, and you struggle with your own self, you become very prone to be judgmental and critical of everyone else. Judgmentalism in anyone&apos;s life is an opportunity to look inside your heart and soul and figure out: What do you stand for? If you can&apos;t answer that question -- &quot;What do I stand for? What do I believe in? What causes am I ready to fight for? What am I passionate about?&quot; -- rest assured you are very likely to be criticizing others because you don&apos;t have your own identity so the easiest thing to do is to criticize someone else&apos;s.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/TZ_1LMRYXlY</string>
+	</dict>
+	<key>exercise</key>
+	<string>Before you criticize someone today, think twice: Is it out of concern and love?</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>40</integer>
+			<key>question</key>
+			<string>When I judge and criticize another, is it in any way tinged with my own contempt and irritation?</string>
+			<key>contentBefore</key>
+			<string>&lt;b&gt;Ask yourself:&lt;/b&gt;</string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>41</integer>
+			<key>question</key>
+			<string>Is there any hidden satisfaction in his failure?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>42</integer>
+			<key>question</key>
+			<string>Is it only out of love for the other?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

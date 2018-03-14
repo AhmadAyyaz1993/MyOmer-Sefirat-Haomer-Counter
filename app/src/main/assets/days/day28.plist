@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>28</integer>
+	<key>week</key>
+	<integer>4</integer>
+	<key>dayOfWeek</key>
+	<integer>7</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 28 days, which are four weeks, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es veintiocho días, que son cuatro semanas del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est vingt-huit jours, qui sont quatre semaines du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ДВАДЦАТЬ ВОСЕМЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ЧЕТЫРЕ НЕДЕЛИ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שְׁמוֹנָה וְעֶשְׂרִים יוֹם שֶׁהֵם אַרְבָּעָה שָׁבוּעוֹת לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Malchus ShebeNetzach</string>
+		<key>es</key>
+		<string>Maljut ShebeNetzaj</string>
+		<key>fr</key>
+		<string>Malkhout chebeNetsa&apos;h</string>
+		<key>ru</key>
+		<string>МАЛХУС ШЕБЕ-НЕЦАХ</string>
+		<key>hb</key>
+		<string>מַלְכוּת שֶׁבְּנֶֽצַח</string>
+	</dict>
+	<key>title</key>
+	<string>Malchut of Netzach</string>
+	<key>subtitle</key>
+	<string>Nobility in Endurance</string>
+	<key>content</key>
+	<string>Sovereignty is the cornerstone of endurance. Endurance that encompasses the previous six qualities is indeed a tribute and testimony to the majesty of the human spirit.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Keep on Going</string>
+		<key>description</key>
+		<string>Does your disposition limit your potential? Is your destiny dictated by your character flaws? Do your traumas define who you are? A key attribute of all healthy people is that the things that have happened to them, as well as their moods and character flaws, do not define who they are. The healthy attitude is, &quot;I experienced it, but that is not me.&quot; When you have that attitude, you are not a victim of circumstances -- you are an active agent in shaping your destiny. Remember that there is always new hope. Even if something bad happened to you yesterday, today is a new day with new possibilities -- so keep on going.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/zsLkeImA9e0</string>
+	</dict>
+	<key>exercise</key>
+	<string>Fight for a dignified cause.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>138</integer>
+			<key>question</key>
+			<string>Is my endurance dignified?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>139</integer>
+			<key>question</key>
+			<string>Does it bring out the best in me?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>140</integer>
+			<key>question</key>
+			<string>When faced with hardships do I behave like a king or queen, walking proudly with my head up, confident in my G-d-given strengths, or do I cower and shrivel up in fear?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

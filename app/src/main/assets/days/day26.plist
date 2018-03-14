@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>26</integer>
+	<key>week</key>
+	<integer>4</integer>
+	<key>dayOfWeek</key>
+	<integer>5</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 26 days, which are three weeks and five days, of the Omer</string>
+		<key>es</key>
+		<string>Hoy es veintiséis días, que son tres semanas y cinco días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est vingt-six jours, qui sont trois semaines et cinq jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ДВАДЦАТЬ ШЕСТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ТРИ НЕДЕЛИ И ПЯТЬ ДНЕЙ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שִׁשָּׁה וְעֶשְׂרִים יוֹם שֶׁהֵם שְׁלֹשָׁה שָׁבוּעוֹת וַחֲמִשָּׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Hod ShebeNetzach</string>
+		<key>es</key>
+		<string>Hod ShebeNetzaj</string>
+		<key>fr</key>
+		<string>Hod chebeNetsa&apos;h</string>
+		<key>ru</key>
+		<string>ОЙД ШЕБЕ-НЕЦАХ</string>
+		<key>hb</key>
+		<string>הוֹד שֶׁבְּנֶֽצַח</string>
+	</dict>
+	<key>title</key>
+	<string>Hod of Netzach</string>
+	<key>subtitle</key>
+	<string>Humility in Endurance</string>
+	<key>content</key>
+	<string>Yielding - which is a result of humility - is an essential element of enduring. Standing fast can sometimes be a formula for destruction. The oak, lacking the ability to bend in a hurricane, is uprooted. The reed, which yields to the wind, survives without problem.
+
+Endurance ,is fueled by inner strength. Hod of netzach is the humble recognition and acknowledgment that the capacity to endure and prevail comes from the soul that G-d gave each person. This humility does not compromise the drive of endurance; on the contrary, it intensifies it, because human endurance can go only so far and endure only so much, whereas endurance that comes from the Divine soul is limitless.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>A Lesson from Trees: Determination</string>
+		<key>description</key>
+		<string>Roots always find their ways to water. Challenge brings out the deepest strength inside a person.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/IWt4wUMFBkA</string>
+	</dict>
+	<key>exercise</key>
+	<string>When you awake, acknowledge G-d for giving you a soul with the extraordinary power and versatility to endure despite trying challenges. This will allow you to draw energy and strength for the entire day.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>133</integer>
+			<key>question</key>
+			<string>Do I know when to yield, out of strength not fear?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>134</integer>
+			<key>question</key>
+			<string>Why am I often afraid to yield?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>135</integer>
+			<key>question</key>
+			<string>Do I attribute my success solely to my own strength and determination?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>136</integer>
+			<key>question</key>
+			<string>Am I convinced that I am all powerful due to my level of endurance?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>137</integer>
+			<key>question</key>
+			<string>Where do I get the strength at times when everything seems so bleak?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

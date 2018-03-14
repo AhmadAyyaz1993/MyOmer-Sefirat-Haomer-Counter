@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>36</integer>
+	<key>week</key>
+	<integer>6</integer>
+	<key>dayOfWeek</key>
+	<integer>1</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 36 days, which are five weeks and one day, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es treinta y seis días, que son cinco semanas y un día del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est trente-six jours, qui sont cinq semaines et un jour du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ТРИДЦАТЬ ШЕСТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ПЯТЬ НЕДЕЛЬ И ОДИН ДЕНЬ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שִׁשָּׁה וּשְׁלֹשִׁים יוֹם שֶׁהֵם חֲמִשָּׁה שָׁבוּעוֹת וְיוֹם אֶחָד לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Chesed ShebeYesod</string>
+		<key>es</key>
+		<string>Jesed ShebeIesod</string>
+		<key>fr</key>
+		<string>Hessed chebeYessod</string>
+		<key>ru</key>
+		<string>ХЕСЕД ШЕБЕ-ЙЕСОЙД</string>
+		<key>hb</key>
+		<string>חֶֽסֶד שֶׁבִּיסוֹד</string>
+	</dict>
+	<key>title</key>
+	<string>Chesed of Yesod</string>
+	<key>subtitle</key>
+	<string>Lovingkindness in Bonding</string>
+	<key>content</key>
+	<string>Love is the heart of bonding. You cannot bond without love. Love establishes a reliable base on which bonding can build.
+
+If you have a problem bonding, examine how much you love the one (or the experience) with which you wish to bond.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Your Concentration and Focused Attention</string>
+		<key>description</key>
+		<string>Rabbi Simon Jacobson discusses why focused attention is a better gift than any trip or toy you could buy your child.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/tBcR5PVMWG0</string>
+	</dict>
+	<key>exercise</key>
+	<string>Demonstrate the bond you have with your child or friend through an act of love.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>170</integer>
+			<key>question</key>
+			<string>Do I try to bond without first fostering a loving attitude?</string>
+			<key>contentBefore</key>
+			<string>&lt;b&gt;If you have a problem bonding,&lt;/b&gt; examine how much you love the one (or the experience) with which you wish to bond</string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>171</integer>
+			<key>question</key>
+			<string>Is my bonding expressed in a loving manner?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

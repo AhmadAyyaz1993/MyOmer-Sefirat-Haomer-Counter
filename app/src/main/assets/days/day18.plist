@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>18</integer>
+	<key>week</key>
+	<integer>3</integer>
+	<key>dayOfWeek</key>
+	<integer>4</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 18 days, which are two weeks and four days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es dieciocho días, que son dos semanas y cuatro días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est dix-huit jours, qui sont deux semaines et quatre jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ВОСЕМНАДЦАТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ДВЕ НЕДЕЛИ И ЧЕТЫРЕ ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שְׁמוֹנָה עָשָׂר יוֹם שֶׁהֵם שְׁנֵי שָׁבוּעוֹת וְאַרְבָּעָה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Netzach ShebeTiferes</string>
+		<key>es</key>
+		<string>Netzaj shebe Tiferet</string>
+		<key>fr</key>
+		<string>Netsa&apos;h chebeTiféret</string>
+		<key>ru</key>
+		<string>НЕЦАХ ШЕБЕ-ТИФЕРЕС</string>
+		<key>hb</key>
+		<string>נֶֽצַח שֶׁבְּתִפְאֶֽרֶת</string>
+	</dict>
+	<key>title</key>
+	<string>Netzach of Tiferet</string>
+	<key>subtitle</key>
+	<string>Endurance in Compassion</string>
+	<key>content</key>
+	<string>null</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Objectivity: Are You Open Minded?</string>
+		<key>description</key>
+		<string>Are you open-minded? Rabbi Simon Jacobson tells a funny Chassidic story to help you identify your level of objectivity.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/DH1iHHJMF3w</string>
+	</dict>
+	<key>exercise</key>
+	<string>In middle of your busy day, take a moment to call someone who needs a compassionate word. Defend someone who is in need of sympathy even if it&apos;s not a popular position.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>90</integer>
+			<key>question</key>
+			<string>Is my compassion enduring and consistent?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>91</integer>
+			<key>question</key>
+			<string>Is it reliable or whimsical?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>92</integer>
+			<key>question</key>
+			<string>Does it prevail among other forces in my life?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>93</integer>
+			<key>question</key>
+			<string>Do I have the capacity to be compassionate even when I&apos;m busy with other activities or only when it&apos;s comfortable for me?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>94</integer>
+			<key>question</key>
+			<string>Am I ready to stand up and fight for another?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>20</integer>
+	<key>week</key>
+	<integer>3</integer>
+	<key>dayOfWeek</key>
+	<integer>6</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 20 days, which are two weeks and six days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es veinte días, que son dos semanas y seis días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est vingt jours, qui sont deux semaines et six jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ДВАДЦАТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ДВЕ НЕДЕЛИ И ШЕСТЬ ДНЕЙ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם עֶשְׂרִים יוֹם שֶׁהֵם שְׁנֵי שָׁבוּעוֹת וְשִׁשָּׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Yesod ShebeTiferes</string>
+		<key>es</key>
+		<string>Iesod Shebe Tiferet</string>
+		<key>fr</key>
+		<string>Yessod chebeTiféret</string>
+		<key>ru</key>
+		<string>ЙЕСОЙД ШЕБЕ-ТИФЕРЕС</string>
+		<key>hb</key>
+		<string>יְסוֹד שֶׁבְּתִפְאֶֽרֶת</string>
+	</dict>
+	<key>title</key>
+	<string>Yesod of Tiferet</string>
+	<key>subtitle</key>
+	<string>Bonding in Compassion</string>
+	<key>content</key>
+	<string>For compassion to be fully realized, it needs bonding. It requires creating a channel between giver and receiver; a mutuality that extends beyond the moment of need; a bond that continues to live on. That is the most gratifying result of true compassion.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Reviving Intimacy</string>
+		<key>description</key>
+		<string>Lost that loving feeling? How to regain that spark, in three minutes.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/YHjSLasvlVU</string>
+	</dict>
+	<key>exercise</key>
+	<string>Ensure that something eternal is built as a result of your compassion.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>98</integer>
+			<key>question</key>
+			<string>Do you bond with the one you have compassion for, or do you remain apart?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>99</integer>
+			<key>question</key>
+			<string>Does your interaction achieve anything beyond a single act of sympathy?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

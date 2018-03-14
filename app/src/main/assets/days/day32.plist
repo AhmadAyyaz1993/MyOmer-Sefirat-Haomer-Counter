@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>32</integer>
+	<key>week</key>
+	<integer>5</integer>
+	<key>dayOfWeek</key>
+	<integer>4</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 32 days, which are four weeks and four days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es treinta y dos días, que son cuatro semanas y cuatro días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est trente-deux jours, qui sont quatre semaines et quatre jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ТРИДЦАТЬ ДВА ДНЯ - ЧТО СОСТАВЛЯЕТ ЧЕТЫРЕ НЕДЕЛИ И ЧЕРЫРЕ ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שְׁנַֽיִם וּשְׁלֹשִׁים יוֹם שֶׁהֵם אַרְבָּעָה שָׁבוּעוֹת וְאַרְבָּעָה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Netzach ShebeHod</string>
+		<key>es</key>
+		<string>Netzaj ShebeHod</string>
+		<key>fr</key>
+		<string>Netsa&apos;h chebeHod</string>
+		<key>ru</key>
+		<string>НЕЦАХ ШЕБЕ-ОЙД</string>
+		<key>hb</key>
+		<string>נֶֽצַח שֶׁבְּהוֹד</string>
+	</dict>
+	<key>title</key>
+	<string>Netzach of Hod</string>
+	<key>subtitle</key>
+	<string>Endurance in Humility</string>
+	<key>content</key>
+	<string>Examine the strength and endurance of your humility.
+
+Humility and modesty should not cause one to feel weak and insecure. Netzach of Hod underscores the fact that true humility does not make you into a &quot;doormat&quot; for others to step on; on the contrary, humility gives you enduring strength.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>You Were Sent to Earth with a Mission</string>
+		<key>description</key>
+		<string>Your soul was sent to Earth with a purpose. Are you living up to it? If you want to change your life, start with that question. You can&apos;t get anywhere without a mission statement, and here is the basis of how to find yours.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/CXc1XicacEo</string>
+	</dict>
+	<key>exercise</key>
+	<string>Demonstrate the strength of your humility by initiating or actively participating in a good cause.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>151</integer>
+			<key>question</key>
+			<string>Does my humility withstand challenges?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>152</integer>
+			<key>question</key>
+			<string>Am I firm in my positions or do I waffle in the name of humility?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>153</integer>
+			<key>question</key>
+			<string>Is my humility perceived as weakness?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>154</integer>
+			<key>question</key>
+			<string>Does that cause others to take advantage of me?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

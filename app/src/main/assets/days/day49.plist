@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>49</integer>
+	<key>week</key>
+	<integer>7</integer>
+	<key>dayOfWeek</key>
+	<integer>7</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 49 days, which are seven weeks, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es cuarenta y nueve días, que son siete semanas del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est quarante-neuf jours, qui sont sept semaines du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ СОРОК ДЕВЯТЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ СЕМЬ НЕДЕЛЬ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם תִּשְׁעָה וְאַרְבָּעִים יוֹם שֶׁהֵם שִׁבְעָה שָׁבוּעוֹת לָעֽוֹמֶר:</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Malchus ShebeMalchus</string>
+		<key>es</key>
+		<string>Maljut ShebeMaljut</string>
+		<key>fr</key>
+		<string>Malkhout chebeMalkhout</string>
+		<key>ru</key>
+		<string>МАЛХУС ШЕБЕ-МАЛХУС</string>
+		<key>hb</key>
+		<string>מַלְכוּת שֶׁבְּמַלְכוּת</string>
+	</dict>
+	<key>title</key>
+	<string>Malchut of Malchut</string>
+	<key>subtitle</key>
+	<string>Nobility of Nobility</string>
+	<key>content</key>
+	<string>null</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>The Real You is Healthy</string>
+		<key>description</key>
+		<string>In the words of the Mystics, you were sent to Earth with a purpose -- a mission that you, and only you, can fulfill. If that is the perspective you can have on yourself, then you will have access to your natural, Divinely-given confidence. Insecurity, self-hatred, and apathy are anomalies -- they are distortions. Your job is to get to know the real you -- not the projected &quot;you&quot;, and not the &quot;you&quot; that your parents may have taught you that you are, and not the &quot;you&quot; that society says you are. Rest assured that your natural state resonates with wholesomeness and goodness.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/Or0-4qyxhV4</string>
+	</dict>
+	<key>exercise</key>
+	<string>Take a moment and concentrate on yourself, on your true inner self, not on your performance and how you project to others; and be at peacenwith yourself knowing that G-d created a very special person which is you.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>223</integer>
+			<key>question</key>
+			<string>Does it come from deep-rooted inner confidence in myself?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>224</integer>
+			<key>question</key>
+			<string>Or is it just a put-on to mask my insecurities?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>225</integer>
+			<key>question</key>
+			<string>Does that cause my sovereignty to be excessive?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>226</integer>
+			<key>question</key>
+			<string>Am I aware of my uniqueness as a person?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>227</integer>
+			<key>question</key>
+			<string>Of my personal contribution?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

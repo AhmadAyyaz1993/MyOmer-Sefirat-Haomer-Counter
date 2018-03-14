@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>1</integer>
+	<key>week</key>
+	<integer>1</integer>
+	<key>dayOfWeek</key>
+	<integer>1</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is one day of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es un día del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est un jour du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ОДИН ДЕНЬ ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם יוֹם אֶחָד לָעֽוֹמֶר:</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Chesed ShebaChesed</string>
+		<key>es</key>
+		<string>Jesed ShebeJesed</string>
+		<key>fr</key>
+		<string>Hessed chebe&apos;Hessed</string>
+		<key>ru</key>
+		<string>ХЕСЕД ШЕБЕ-ХЕСЕД</string>
+		<key>hb</key>
+		<string>חֶֽסֶד שֶׁבְּחֶֽסֶד</string>
+	</dict>
+	<key>title</key>
+	<string>Chesed of Chesed</string>
+	<key>subtitle</key>
+	<string>Lovingkindness in Lovingkindness</string>
+	<key>content</key>
+	<string>Examine the love aspect of love; the expression of love and its level of intensity. Everyone has the capacity to love in their hearts. The question is if and how we actualize and express it.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>You Can&apos;t Run Out of Love</string>
+		<key>description</key>
+		<string>How much love can one give? Can one run out of love? Can one equally love ten children as much as one child? Love is not a mathematical equation. Nor is it like a pie, which can be cut into that many pieces, running out at some point. A pie is a physical entity. Love is an ethereal one. Love is like the sun: the same sun is reflected in one drop of water just like it is reflected in the vast Pacific Ocean. If you have several drops of water, will one have less of the sun than another? In our commodity-based material world, it&apos;s good to remember that there are things in life, like love, that are not products, defined by size and quantity. Love is not measurable. You can&apos;t run out of it. You do need to temper love with boundaries and discipline, but you will never exhaust it -- because it is limitless.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/dqOAVJP1BhQ</string>
+	</dict>
+	<key>exercise</key>
+	<string>Find a new way to express your love to a dear one.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>1</integer>
+			<key>question</key>
+			<string>What is my capacity to love another person?</string>
+			<key>contentBefore</key>
+			<string>&lt;b&gt;Ask yourself:&lt;/b&gt;</string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>2</integer>
+			<key>question</key>
+			<string>Do I have problems with giving?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>3</integer>
+			<key>question</key>
+			<string>Am I stingy or selfish?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>4</integer>
+			<key>question</key>
+			<string>Is it difficult for me to let someone else into my life?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>5</integer>
+			<key>question</key>
+			<string>Do I have room for someone else?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>6</integer>
+			<key>question</key>
+			<string>Do I allow room for someone else?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>7</integer>
+			<key>question</key>
+			<string>Am I afraid of my vulnerability, of opening up and getting hurt?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string>&amp;nbsp;</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>8</integer>
+			<key>question</key>
+			<string>How do I express love?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>9</integer>
+			<key>question</key>
+			<string>Am I able to communicate my true feelings?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>10</integer>
+			<key>question</key>
+			<string>Do I withhold expressing love out of fear of another&apos;s reaction?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>11</integer>
+			<key>question</key>
+			<string>Or on the contrary: Do I often express too much too early?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>12</integer>
+			<key>question</key>
+			<string>Do others misunderstand my intentions?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string>&amp;nbsp;</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>13</integer>
+			<key>question</key>
+			<string>Whom do I love?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>14</integer>
+			<key>question</key>
+			<string>Do I only love those whom I relate to and who relate to me?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>15</integer>
+			<key>question</key>
+			<string>Do I have the capacity to love a stranger; to lend a helping hand to someone I don&apos;t know?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>16</integer>
+			<key>question</key>
+			<string>Do I express love only when it&apos;s comfortable?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string>&amp;nbsp;</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>17</integer>
+			<key>question</key>
+			<string>Why do I have problems with love and what can I do about it?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>18</integer>
+			<key>question</key>
+			<string>Does my love include the other six aspects of chesed, without which love will be distorted and unable to be truly realized?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

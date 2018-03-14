@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>33</integer>
+	<key>week</key>
+	<integer>5</integer>
+	<key>dayOfWeek</key>
+	<integer>5</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 33 days, which are four weeks and five days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es treinta y tres días, que son cuatro semanas y cinco días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est trente-trois jours, qui sont quatre semaines et cinq jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ТРИДЦАТЬ ТРИ ДНЯ - ЧТО СОСТАВЛЯЕТ ЧЕТЫРЕ НЕДЕЛИ И ПЯТЬ ДНЕЙ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שְׁלֹשָׁה וּשְׁלֹשִׁים יוֹם שֶׁהֵם אַרְבָּעָה שָׁבוּעוֹת וַחֲמִשָּׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Hod ShebeHod</string>
+		<key>es</key>
+		<string>Hod ShebeHod</string>
+		<key>fr</key>
+		<string>Hod chebeHod</string>
+		<key>ru</key>
+		<string>ОЙД ШЕБЕ-ОЙД</string>
+		<key>hb</key>
+		<string>הוֹד שֶׁבְּהוֹד</string>
+	</dict>
+	<key>title</key>
+	<string>Hod of Hod</string>
+	<key>subtitle</key>
+	<string>Humility in Humility</string>
+	<key>content</key>
+	<string>Examine the humility of humility. Everyone has humility and modesty in his or her heart, the question is the measure and manner in which one consciously feels it.
+
+Learn to cultivate your humility by interacting with people who are more refined than yourself, evoking in you modesty and humility that motivates you to grow.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Humiliation: The Spirituality of Embarrassment</string>
+		<key>description</key>
+		<string>In this Meaningful Monday video, Rabbi Simon Jacobson discusses the spirituality of embarrassment. This is a brief synopsis of what the Torah and Kabbalah says about the very normal, real human experience of humiliation. Discover why nothing is wrong with you, and in fact why it is quite positive, to feel humiliated. In Judaism, enlightenment does not come from being indifferent.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/Hye-gmTEyoU</string>
+	</dict>
+	<key>exercise</key>
+	<string>Be humble just for its own sake.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>155</integer>
+			<key>question</key>
+			<string>Am I afraid to be too humble?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>156</integer>
+			<key>question</key>
+			<string>Do I mask and protect my modesty with aggressive behavior?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>157</integer>
+			<key>question</key>
+			<string>Is my humility humble?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>158</integer>
+			<key>question</key>
+			<string>Or is it yet another expression of arrogance?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>159</integer>
+			<key>question</key>
+			<string>Do I take too much pride in my humility?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>160</integer>
+			<key>question</key>
+			<string>Do I flaunt it?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>161</integer>
+			<key>question</key>
+			<string>Is it self-serving?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>162</integer>
+			<key>question</key>
+			<string>Is my humility part of a crusade or is it genuine?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>163</integer>
+			<key>question</key>
+			<string>Do I have expectations due to my humility?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

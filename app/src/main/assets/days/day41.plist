@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>41</integer>
+	<key>week</key>
+	<integer>6</integer>
+	<key>dayOfWeek</key>
+	<integer>6</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 41 days, which are five weeks and six days, of the Omer.</string>
+		<key>es</key>
+		<string>Hoy es cuarenta y un días. que son cinco semanas y seis días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est quarante et un jours, qui sont cinq semaines et six jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ СОРОК ОДИН ДЕНЬ - ЧТО СОСТАВЛЯЕТ ПЯТЬ НЕДЕЛЬ И ШЕСТЬ ДНЕЙ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם אֶחָד וְאַרְבָּעִים יוֹם שֶׁהֵם חֲמִשָּׁה שָׁבוּעוֹת וְשִׁשָּׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Yesod ShebeYesod</string>
+		<key>es</key>
+		<string>Iesod ShebeIesod</string>
+		<key>fr</key>
+		<string>Yessod chebeYessod</string>
+		<key>ru</key>
+		<string>ЙЕСОЙД ШЕБЕ-ЙЕСОЙД</string>
+		<key>hb</key>
+		<string>יְסוֹד שֶׁבִּיסוֹד</string>
+	</dict>
+	<key>title</key>
+	<string>Yesod of Yesod</string>
+	<key>subtitle</key>
+	<string>Bonding in Bonding</string>
+	<key>content</key>
+	<string>Examine the bonding aspect of bonding, the forms it takes and its level of expression. Every person needs and has the capacity to bond with other people, with significant undertakings and with meaningful experiences.
+
+To cultivate your capacity to bond, even if you have valid reasons to distrust, you must remember that G-d gave you a Divine soul that is nurturing and loving and you must learn to recognize the voice within, which will allow you to experience other people&apos;s hearts and souls. Then you can slowly drop your defenses when you recognize someone or something you can truly trust. For bonding to be possible it must embody the other six aspects of bonding. Successful bonding must also include actualizing the bond in constructive deeds.
+
+One additional point: Bonding breeds bonding. When you bond in one area of your life, it helps you bond in other areas.</string>
+	<key>exercise</key>
+	<string>Begin bonding with a new person (or experience) that is important to you by committing a designated time each day or week to spend together constructively.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>183</integer>
+			<key>question</key>
+			<string>Do I have difficulty bonding?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>184</integer>
+			<key>question</key>
+			<string>Is the difficulty in all areas or only in certain ones?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>185</integer>
+			<key>question</key>
+			<string>Do I bond easily with my job, but have trouble bonding with people?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>186</integer>
+			<key>question</key>
+			<string>Or vice versa?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>187</integer>
+			<key>question</key>
+			<string>Do I have problems bonding with special events in my life?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>188</integer>
+			<key>question</key>
+			<string>Is it because I am too critical and find fault in everything as an excuse for not bonding?</string>
+			<key>contentBefore</key>
+			<string>&lt;br/&gt;&lt;b&gt;Examine the reasons for not bonding.&lt;/b&gt;</string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>189</integer>
+			<key>question</key>
+			<string>Am I too locked in my own ways?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>190</integer>
+			<key>question</key>
+			<string>Is my not bonding a result of discomfort with vulnerability?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>191</integer>
+			<key>question</key>
+			<string>Have I been hurt in my past bonding experiences?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>192</integer>
+			<key>question</key>
+			<string>Has my trust been abused?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>193</integer>
+			<key>question</key>
+			<string>Is my fear of bonding a result of the inadequate bonding I experienced as a child?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string>&lt;/br&gt;&lt;b&gt;To cultivate your capacity to bond,&lt;/b&gt; even if you have valid reasons to distrust, you must remember that G-d gave you a Divine soul that is nurturing and loving and you must learn to recognize the voice within, which will allow you to experience other people&amp;apos;s  hearts and souls. Then you can slowly drop your defenses when you recognize someone or something you can truly trust.&lt;/br&gt;&lt;b&gt;For bonding to be possible&lt;/b&gt; it must embody the other six aspects of bonding. Successful bonding must also include actualizing the bond in constructive deeds.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

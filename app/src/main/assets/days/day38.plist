@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>day</key>
+	<integer>38</integer>
+	<key>week</key>
+	<integer>6</integer>
+	<key>dayOfWeek</key>
+	<integer>3</integer>
+	<key>quote</key>
+	<dict>
+		<key>en</key>
+		<string>Today is 38 days, which are five weeks and three days, of the Omer</string>
+		<key>es</key>
+		<string>Hoy es treinta y ocho días, que son cinco semanas y tres días del Omer.</string>
+		<key>fr</key>
+		<string>Aujourd&apos;hui est trente-huit jours, qui sont cinq semaines et trois jours du Omer</string>
+		<key>ru</key>
+		<string>СЕГОДНЯ ТРИДЦАТЬ ВОСЕМЬ ДНЕЙ - ЧТО СОСТАВЛЯЕТ ПЯТЬ НЕДЕЛЬ И ТРИ ДНЯ - ОМЕРА.</string>
+		<key>hb</key>
+		<string>הַיּוֹם שְׁמוֹנָה וּשְׁלֹשִׁים יוֹם שֶׁהֵם חֲמִשָּׁה שָׁבוּעוֹת וּשְׁלֹשָׁה יָמִים לָעֽוֹמֶר</string>
+	</dict>
+	<key>sefirah</key>
+	<dict>
+		<key>en</key>
+		<string>Tiferes ShebeYesod</string>
+		<key>es</key>
+		<string>Tiferet ShebeIesod</string>
+		<key>fr</key>
+		<string>Tiféret chebeYessod</string>
+		<key>ru</key>
+		<string>ТИФЕРЕС ШЕБЕ-ЙЕСОЙД</string>
+		<key>hb</key>
+		<string>תִּפְאֶֽרֶת שֶׁבִּיסוֹד</string>
+	</dict>
+	<key>title</key>
+	<string>Tiferet of Yesod</string>
+	<key>subtitle</key>
+	<string>Compassion in Bonding</string>
+	<key>content</key>
+	<string>Bonding needs to be not only loving but also compassionate, feeling your friend&apos;s pain and empathizing with him.</string>
+	<key>video</key>
+	<dict>
+		<key>title</key>
+		<string>Be Grateful for the Small, Quiet Things People Do For You</string>
+		<key>description</key>
+		<string>Rabbi Simon Jacobson discsusses the essence of gratitude, and an important ramification of it. Sometimes power is in the quietest moments.</string>
+		<key>youtube_url</key>
+		<string>https://youtu.be/uQZgt1xh-6Y</string>
+	</dict>
+	<key>exercise</key>
+	<string>Offer help and support in dealing with an ordeal of someone you have bonded with.</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>177</integer>
+			<key>question</key>
+			<string>Is my bonding conditional?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>178</integer>
+			<key>question</key>
+			<string>Do I withdraw when I am uncomfortable with my friend&apos;s troubles?</string>
+			<key>contentBefore</key>
+			<string></string>
+			<key>contentAfter</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>
