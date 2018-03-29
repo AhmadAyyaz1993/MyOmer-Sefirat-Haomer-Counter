@@ -2,9 +2,12 @@ package com.myomer.myomer.fragments;
 
 import android.content.Context;
 import android.content.res.AssetManager;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,7 +41,7 @@ public class DailyFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-    TextView tvTopHeading, tvQuote,tvTitleOne,tvTitleTwo,tvContent;
+    TextView tvTopHeading, tvQuote,tvTitleOne,tvTitleTwo,tvContent,tvMeditation,tvDayLabel;
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -86,6 +89,10 @@ public class DailyFragment extends Fragment {
         tvTitleOne = (TextView) view.findViewById(R.id.tvTitleOne);
         tvTitleTwo = (TextView) view.findViewById(R.id.tvTitleTwo);
         tvContent =(TextView) view.findViewById(R.id.tvContent);
+
+        tvMeditation = (TextView) view.findViewById(R.id.tvMeditation);
+        tvDayLabel = (TextView) view.findViewById(R.id.tvDayLabel);
+
         GlobalBus.getBus().register(this);
 
         return view;
@@ -140,10 +147,27 @@ public class DailyFragment extends Fragment {
             String content = dict.getString("content");
             tvTitleOne.setText(title);
             tvTitleTwo.setText(subTitle);
-            tvContent.setText(content);
+            tvContent.setText(content.equals("null") ? "Get started with today’s journal questions and exercise.":content);
+            tvDayLabel.setText("Day "+dayCount);
 
-            PListDict video = dict.getPListDict("video");
-            String videoLink = video.getString("youtube_url");
+            int week = dict.getInt("week");
+            InputStream inputStream = null;
+
+            inputStream = assetManager.open("weeks/week" + week + ".plist");
+
+            PListDict weekDict = PListParser.parse(inputStream);
+            String color = weekDict.getString("color");
+            tvTitleOne.setTextColor(Color.parseColor("#"+color));
+            tvTitleTwo.setTextColor(Color.parseColor("#"+color));
+            Typeface type = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Biko_Bold.otf");
+            tvTitleOne.setTypeface(type);
+            tvTitleTwo.setTypeface(type);
+            Typeface type1 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Biko_Regular.otf");
+            tvContent.setTypeface(type1);
+            Typeface type3 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Biko_Bold.otf");
+            tvMeditation.setTypeface(type3);
+            Typeface type2 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/dino_bold.otf");
+            tvDayLabel.setTypeface(type2);
         } catch (IOException e) {
             e.printStackTrace();
         } catch (PListException e) {

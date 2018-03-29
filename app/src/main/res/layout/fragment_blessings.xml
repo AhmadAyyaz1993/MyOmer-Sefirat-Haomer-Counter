@@ -5,52 +5,56 @@
     android:background="@android:color/white"
     tools:context="com.myomer.myomer.fragments.BlessingsFragment">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@android:color/white"
-        android:gravity="center_vertical"
-        >
-        <TextView
-            android:id="@+id/tvLocale"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="en"
-            android:textSize="16dp"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:padding="8dp"
-            android:layout_margin="8dp"
-            android:background="@android:color/holo_red_light"
-            android:textColor="@android:color/white"
 
-            />
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_centerInParent="true"
-            android:paddingRight="8dp"
-            android:layout_alignParentRight="true"
-            >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Record  Blessing"
-                android:textSize="16dp"
-                android:textStyle="bold"
-                android:paddingRight="8dp"
-                android:textColor="@android:color/holo_red_light"
-                />
 
-            <Switch
-                android:id="@+id/simpleSwitch"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-        </LinearLayout>
-    </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                >
+                <TextView
+                    android:id="@+id/tvLocale"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:text="en"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/holo_red_light"
+                    android:textColor="@android:color/white"
 
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_centerInParent="true"
+                    android:paddingRight="8dp"
+                    android:layout_alignParentRight="true"
+                    >
+                    <TextView
+                        android:id="@+id/tvBlessingRecord"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Blessing Said"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:paddingRight="8dp"
+                        android:textColor="@android:color/holo_red_light"
+                        />
+
+                    <android.support.v7.widget.SwitchCompat
+                        android:id="@+id/simpleSwitch"
+                        android:layout_width="wrap_content"
+                        android:theme="@style/SCBSwitch"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </RelativeLayout>
     <ScrollView
         android:id="@+id/SCROLLER_ID"
         android:layout_width="fill_parent"
@@ -67,14 +71,12 @@
             android:padding="8dp"
             android:background="@android:color/white"
             >
-
             <TextView
                 android:id="@+id/tvSefirah"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Title 1"
-                android:textSize="16dp"
-                android:textStyle="bold"
+                android:textSize="15dp"
                 android:textColor="@android:color/black"
 
                 />
@@ -85,18 +87,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Title 1"
-                android:textSize="16dp"
+                android:textSize="14dp"
                 android:textStyle="bold"
                 android:textColor="@android:color/black"
 
                 />
 
-            <WebView
+            <TextView
                 android:id="@+id/wvBlessings"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="16dp"
-
+                android:layout_marginTop="14dp"
+                android:scrollbars="none"
+                android:textSize="15dp"
+                android:lineSpacingExtra="1.8dp"
                 android:layout_gravity="center"
                 android:textColor="@android:color/black"
 

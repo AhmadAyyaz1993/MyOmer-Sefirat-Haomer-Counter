@@ -36,4 +36,10 @@ public class Constants {
 
     public static int MY_OMER_DAYS_COUNT = 49;
     public static int MY_OMER_WEEKS_COUNT = 7;
+    public static String BOOK_URL = "https://www.meaningfullife.com/product/spiritual-guide-to-counting-the-omer/";
+    public static String DONATE_URL = "https://meaningfullife.com/help/donate/";
+    public static String TECH_SUPPORT_EMAIL = "myomer@meaningfullife.com";
+    public static String TECH_SUPPORT_SUBJECT = "Report MyOmer Bug";
+    public static String SHARE_BODY = "49 Simple Steps to personal transformation Start your journey with My Omer: Sefirat HaOmer Counter. https://play.google.com/store/apps/details?id=com.sefirah.myomer.lite&hl=en";
+    public static String TECH_SUPPORT_BODY = "Thank you for taking the time to report an issue with the MyOmer app. Please explain in detail the issue you are encountering, the make, the model of your phone, and include a screen shot if possible.\n\nWe will respond promptly.\n\nThank you.";
 }

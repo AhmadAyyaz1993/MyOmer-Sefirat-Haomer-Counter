@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/black"
+    android:background="@drawable/background"
     tools:context="com.myomer.myomer.activities.WaitingScreenActivity">
 
     <LinearLayout
@@ -22,6 +22,7 @@
 
         />
     <TextView
+        android:id="@+id/tvBeginOn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Saturday, March 31, 2018"
@@ -66,16 +67,22 @@
         android:orientation="vertical">
         <Button
             android:layout_gravity="center_horizontal"
-            android:layout_width="wrap_content"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="Get Started"
+            android:background="#278d82"
+            android:text="Get the book"
+            android:onClick="getStarted"
+            android:textColor="#fff"
 
             />
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="What is Omer"
+            android:onClick="aboutUs"
             android:layout_marginTop="10dp"
+            android:background="#278d82"
+            android:textColor="#fff"
             />
     </LinearLayout>
 

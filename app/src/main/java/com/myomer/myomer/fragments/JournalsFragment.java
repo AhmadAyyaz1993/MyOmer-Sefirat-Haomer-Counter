@@ -2,6 +2,7 @@ package com.myomer.myomer.fragments;
 
 import android.content.Context;
 import android.content.res.AssetManager;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -44,6 +45,7 @@ public class JournalsFragment extends Fragment {
     private ViewPager mViewPager;
     CircleIndicator indicator;
     QuestionAdapter questionAdapter;
+    TextView tvQuest;
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -87,6 +89,7 @@ public class JournalsFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_journals, container, false);
         mViewPager = (ViewPager) view.findViewById(R.id.viewpager);
         indicator = (CircleIndicator) view.findViewById(R.id.indicator);
+        tvQuest = (TextView) view.findViewById(R.id.tvQuest);
         GlobalBus.getBus().register(this);
         return view;
     }
@@ -135,11 +138,28 @@ public class JournalsFragment extends Fragment {
 
             PListDict dict = PListParser.parse(stream);
             int day = dict.getInt("day");
+            int week = dict.getInt("week");
+            InputStream inputStream = null;
+
+            inputStream = assetManager.open("weeks/week" + week + ".plist");
+
+            PListDict weekDict = PListParser.parse(inputStream);
+            String color = weekDict.getString("color");
+
             PListArray questions = dict.getPListArray("questions");
-            questionAdapter = new QuestionAdapter(this.getContext(), questions,day);
+            questionAdapter = new QuestionAdapter(this.getContext(), questions, day, color);
             mViewPager.setAdapter(questionAdapter);
             indicator.setViewPager(mViewPager);
             questionAdapter.registerDataSetObserver(indicator.getDataSetObserver());
+            if (questions.size() > 0) {
+                tvQuest.setVisibility(View.GONE);
+
+            }else {
+                tvQuest.setVisibility(View.VISIBLE);
+
+                tvQuest.setText("Please check back tomorrow for more journal questions.");
+                tvQuest.setTextColor(Color.parseColor("#"+color));
+            }
 
         } catch (IOException e) {
             e.printStackTrace();

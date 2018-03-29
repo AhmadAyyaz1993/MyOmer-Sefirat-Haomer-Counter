@@ -1,8 +1,10 @@
 package com.myomer.myomer.activities;
 
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -29,18 +31,23 @@ import com.myomer.myomer.fragments.ExerciseFragment;
 import com.myomer.myomer.fragments.JournalsFragment;
 import com.myomer.myomer.fragments.VideoFragment;
 import com.myomer.myomer.fragments.WeekFragment;
+import com.myomer.myomer.models.MyOmerPeriod;
 import com.myomer.myomer.plist_parser.PListDict;
 import com.myomer.myomer.plist_parser.PListException;
 import com.myomer.myomer.plist_parser.PListParser;
+import com.myomer.myomer.realm.RealmController;
 import com.myomer.myomer.utilty.Constants;
 import com.myomer.myomer.utilty.Utilty;
 
 
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
+import org.joda.time.Days;
+import org.joda.time.LocalDate;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Date;
 
 import co.ceryle.radiorealbutton.RadioRealButton;
 import co.ceryle.radiorealbutton.RadioRealButtonGroup;
@@ -56,7 +63,7 @@ public class HomeActivity extends AppCompatActivity implements DailyFragment.OnF
         JournalsFragment.OnFragmentInteractionListener,
         BlessingsFragment.OnFragmentInteractionListener, NavigationView.OnNavigationItemSelectedListener {
 
-    TextView tvTopHeading, tvQuote,tvTitleOne,tvTitleTwo,tvContent;
+    TextView tvTopHeading, tvQuote,tvTitleOne,tvTitleTwo,tvContent,tvDay1,tvDay2,tvDay3,tvDay4,tvDay5,tvDay6,tvDay7;
 
     RadioRealButtonGroup buttonGroup;
     ImageView ivNext,ivPrevious,ivMenu;
@@ -65,7 +72,7 @@ public class HomeActivity extends AppCompatActivity implements DailyFragment.OnF
     String videoLink;
     int buttonClicked = 1;
     LinearLayout llParentPanel;
-
+    Intent intent;
 
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -103,6 +110,7 @@ public class HomeActivity extends AppCompatActivity implements DailyFragment.OnF
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_home);
         initViews();
+        intent = getIntent();
 
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         Utilty.removeShiftMode(navigation);
@@ -111,6 +119,12 @@ public class HomeActivity extends AppCompatActivity implements DailyFragment.OnF
         Utilty.replaceFragment(this,new DailyFragment(),R.id.frame_container);
         populateViews(count);
 
+        int currentYear = Utilty.getYear(new Date());
+        MyOmerPeriod myOmerPeriod = RealmController.with(this).getPeriodByYear(currentYear);
+        Date startDateOfOmer = myOmerPeriod.getStartDate();
+        Date currentDate = new Date();
+
+        Constants.MY_OMER_DAYS_COUNT = Days.daysBetween(new LocalDate(startDateOfOmer),new LocalDate(currentDate)).getDays();
 
 
         ivNext.setOnClickListener(new View.OnClickListener() {
@@ -156,6 +170,11 @@ public class HomeActivity extends AppCompatActivity implements DailyFragment.OnF
             }
         });
 
+        int dayNumber = intent.getIntExtra("DayNumber",0);
+        if (dayNumber != 0){
+            count = dayNumber;
+        }
+
         GlobalBus.getBus().postSticky(new Events.DayChangeEvent(count));
 
     }
@@ -172,6 +191,13 @@ public class HomeActivity extends AppCompatActivity implements DailyFragment.OnF
         buttonGroup = (RadioRealButtonGroup) findViewById(R.id.buttonGroup);
         llParentPanel = (LinearLayout) findViewById(R.id.parentPanel);
         ivMenu= (ImageView) findViewById(R.id.ivMenu);
+        tvDay1 = (TextView) findViewById(R.id.tvDay1);
+        tvDay2 = (TextView) findViewById(R.id.tvDay2);
+        tvDay3 = (TextView) findViewById(R.id.tvDay3);
+        tvDay4 = (TextView) findViewById(R.id.tvDay4);
+        tvDay5 = (TextView) findViewById(R.id.tvDay5);
+        tvDay6 = (TextView) findViewById(R.id.tvDay6);
+        tvDay7 = (TextView) findViewById(R.id.tvDay7);
         final DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
@@ -181,6 +207,10 @@ public class HomeActivity extends AppCompatActivity implements DailyFragment.OnF
                 drawer.openDrawer(Gravity.LEFT);
             }
         });
+        Typeface type = Typeface.createFromAsset(getAssets(),"fonts/Biko_Bold.otf");
+        tvTopHeading.setTypeface(type);
+        Typeface type1 = Typeface.createFromAsset(getAssets(),"fonts/Biko_Regular.otf");
+        tvQuote.setTypeface(type1);
     }
 
 
@@ -197,106 +227,147 @@ public class HomeActivity extends AppCompatActivity implements DailyFragment.OnF
             int week = dict.getInt("week");
             int dayOfWeek = dict.getInt("dayOfWeek");
             weekCount = week;
+            InputStream is = null;
+
+            is = assetManager.open("weeks/week" + week + ".plist");
+
+            PListDict dict2 = PListParser.parse(is);
+            String color = dict2.getString("color");
+            String title = dict2.getString("title");
+            String subTitle = dict2.getString("subtitle");
             if (week == 1){
-                InputStream is = null;
 
-                is = assetManager.open("weeks/week" + week + ".plist");
 
-                PListDict dict2 = PListParser.parse(is);
 
-                String color = dict2.getString("color");
-                String title = dict2.getString("title");
-                String subTitle = dict2.getString("subtitle");
                 tvTopHeading.setText(title);
                 tvQuote.setText(subTitle);
                 llParentPanel.setBackgroundColor(Color.parseColor("#"+color));
 
             }else if (week == 2){
-                InputStream is = null;
 
-                is = assetManager.open("weeks/week" + week + ".plist");
 
-                PListDict dict2 = PListParser.parse(is);
 
-                String color = dict2.getString("color");
-                String title = dict2.getString("title");
-                String subTitle = dict2.getString("subtitle");
                 tvTopHeading.setText(title);
                 tvQuote.setText(subTitle);
                 llParentPanel.setBackgroundColor(Color.parseColor("#"+color));
                 
             }else if (week == 3){
-                InputStream is = null;
 
-                is = assetManager.open("weeks/week" + week + ".plist");
 
-                PListDict dict2 = PListParser.parse(is);
 
-                String color = dict2.getString("color");
-                String title = dict2.getString("title");
-                String subTitle = dict2.getString("subtitle");
                 tvTopHeading.setText(title);
                 tvQuote.setText(subTitle);
                 llParentPanel.setBackgroundColor(Color.parseColor("#"+color));
 
             }else if (week == 4){
-                InputStream is = null;
 
-                is = assetManager.open("weeks/week" + week + ".plist");
 
-                PListDict dict2 = PListParser.parse(is);
 
-                String color = dict2.getString("color");
-                String title = dict2.getString("title");
-                String subTitle = dict2.getString("subtitle");
                 tvTopHeading.setText(title);
                 tvQuote.setText(subTitle);
                 llParentPanel.setBackgroundColor(Color.parseColor("#"+color));
 
             }else if (week == 5){
-                InputStream is = null;
 
-                is = assetManager.open("weeks/week" + week + ".plist");
 
-                PListDict dict2 = PListParser.parse(is);
 
-                String color = dict2.getString("color");
-                String title = dict2.getString("title");
-                String subTitle = dict2.getString("subtitle");
                 tvTopHeading.setText(title);
                 tvQuote.setText(subTitle);
                 llParentPanel.setBackgroundColor(Color.parseColor("#"+color));
 
             }else if (week == 6){
-                InputStream is = null;
 
-                is = assetManager.open("weeks/week" + week + ".plist");
 
-                PListDict dict2 = PListParser.parse(is);
 
-                String color = dict2.getString("color");
-                String title = dict2.getString("title");
-                String subTitle = dict2.getString("subtitle");
                 tvTopHeading.setText(title);
                 tvQuote.setText(subTitle);
                 llParentPanel.setBackgroundColor(Color.parseColor("#"+color));
 
             }else if (week == 7){
-                InputStream is = null;
 
-                is = assetManager.open("weeks/week" + week + ".plist");
 
-                PListDict dict2 = PListParser.parse(is);
 
-                String color = dict2.getString("color");
-                String title = dict2.getString("title");
-                String subTitle = dict2.getString("subtitle");
                 tvTopHeading.setText(title);
                 tvQuote.setText(subTitle);
                 llParentPanel.setBackgroundColor(Color.parseColor("#"+color));
 
             }
 
+            int currentYear = Utilty.getYear(new Date());
+            MyOmerPeriod myOmerPeriod = RealmController.with(this).getPeriodByYear(currentYear);
+            Date startDateOfOmer = myOmerPeriod.getStartDate();
+            Date currentDate = new Date();
+
+            if(Days.daysBetween(new LocalDate(startDateOfOmer),new LocalDate(currentDate)).getDays()>0){
+                InputStream inputStream = null;
+
+                inputStream = assetManager.open("weeks/week" + 1 + ".plist");
+
+                PListDict dict3 = PListParser.parse(inputStream);
+                String col = dict3.getString("color");
+                tvDay1.setBackgroundColor(Color.parseColor("#"+col));
+                tvDay1.setTextColor(Color.parseColor("#ffffff"));
+            }
+            if (Days.daysBetween(new LocalDate(startDateOfOmer),new LocalDate(currentDate)).getDays()>7){
+                InputStream inputStream = null;
+
+                inputStream = assetManager.open("weeks/week" + 2 + ".plist");
+
+                PListDict dict3 = PListParser.parse(inputStream);
+                String col = dict3.getString("color");
+                tvDay2.setBackgroundColor(Color.parseColor("#"+col));
+                tvDay2.setTextColor(Color.parseColor("#ffffff"));
+            }
+            if (Days.daysBetween(new LocalDate(startDateOfOmer),new LocalDate(currentDate)).getDays()>14){
+                InputStream inputStream = null;
+
+                inputStream = assetManager.open("weeks/week" + 3 + ".plist");
+
+                PListDict dict3 = PListParser.parse(inputStream);
+                String col = dict3.getString("color");
+                tvDay3.setBackgroundColor(Color.parseColor("#"+col));
+                tvDay3.setTextColor(Color.parseColor("#ffffff"));
+            }
+            if (Days.daysBetween(new LocalDate(startDateOfOmer),new LocalDate(currentDate)).getDays()>21){
+                InputStream inputStream = null;
+
+                inputStream = assetManager.open("weeks/week" + 4 + ".plist");
+
+                PListDict dict3 = PListParser.parse(inputStream);
+                String col = dict3.getString("color");
+                tvDay4.setBackgroundColor(Color.parseColor("#"+col));
+                tvDay4.setTextColor(Color.parseColor("#ffffff"));
+            }
+            if (Days.daysBetween(new LocalDate(startDateOfOmer),new LocalDate(currentDate)).getDays()>28){
+                InputStream inputStream = null;
+
+                inputStream = assetManager.open("weeks/week" + 5 + ".plist");
+
+                PListDict dict3 = PListParser.parse(inputStream);
+                String col = dict3.getString("color");
+                tvDay5.setBackgroundColor(Color.parseColor("#"+col));
+                tvDay5.setTextColor(Color.parseColor("#ffffff"));
+            }
+            if (Days.daysBetween(new LocalDate(startDateOfOmer),new LocalDate(currentDate)).getDays()>35){
+                InputStream inputStream = null;
+
+                inputStream = assetManager.open("weeks/week" + 6 + ".plist");
+
+                PListDict dict3 = PListParser.parse(inputStream);
+                String col = dict3.getString("color");
+                tvDay6.setBackgroundColor(Color.parseColor("#"+col));
+                tvDay6.setTextColor(Color.parseColor("#ffffff"));
+            }
+            if (Days.daysBetween(new LocalDate(startDateOfOmer),new LocalDate(currentDate)).getDays()>42){
+                InputStream inputStream = null;
+
+                inputStream = assetManager.open("weeks/week" + 7 + ".plist");
+
+                PListDict dict3 = PListParser.parse(inputStream);
+                String col = dict3.getString("color");
+                tvDay7.setBackgroundColor(Color.parseColor("#"+col));
+                tvDay7.setTextColor(Color.parseColor("#ffffff"));
+            }
 
 
         } catch (IOException e) {
@@ -341,17 +412,25 @@ public class HomeActivity extends AppCompatActivity implements DailyFragment.OnF
         if (id == R.id.omer_chart) {
             startActivity(new Intent(HomeActivity.this,OmerChartActivity.class));
         } else if (id == R.id.settings) {
-
+            startActivity(new Intent(HomeActivity.this,SettingsActivity.class));
         } else if (id == R.id.goToBook) {
-
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.BOOK_URL)));
         } else if (id == R.id.donate) {
-
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.DONATE_URL)));
         } else if (id == R.id.techSupport) {
-
+            // Sending to admin
+            Intent testIntent = new Intent(Intent.ACTION_VIEW);
+            Uri data = Uri.parse("mailto:?subject=" + Constants.TECH_SUPPORT_SUBJECT + "&body=" + Constants.TECH_SUPPORT_BODY + "&to=" + Constants.TECH_SUPPORT_EMAIL);
+            testIntent.setData(data);
+            startActivity(testIntent);
         } else if (id == R.id.whatIsOmer) {
-
+            startActivity(new Intent(HomeActivity.this,AboutUsActivity.class));
         }else if (id == R.id.nav_share) {
-
+            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+            sharingIntent.setType("text/plain");
+            sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject Here");
+            sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, Constants.SHARE_BODY);
+            startActivity(Intent.createChooser(sharingIntent, "Share"));
         }
         return true;
     }

@@ -33,8 +33,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Title 1"
-                android:textSize="16dp"
-                android:layout_marginTop="45dp"
+                android:textSize="15dp"
+                android:lineSpacingExtra="1.8dp"
+                android:gravity="center"
+                android:layout_marginTop="35dp"
                 android:textColor="@android:color/black"
 
                 />

@@ -2,6 +2,8 @@ package com.myomer.myomer.fragments;
 
 import android.content.Context;
 import android.content.res.AssetManager;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -138,8 +140,15 @@ public class WeekFragment extends Fragment {
             tvTitleTwo.setText(subTitle);
             tvContent.setText(content);
 
-            PListDict video = dict.getPListDict("video");
-            String videoLink = video.getString("youtube_url");
+
+            String color = dict.getString("color");
+            tvTitleOne.setTextColor(Color.parseColor("#"+color));
+            tvTitleTwo.setTextColor(Color.parseColor("#"+color));
+            Typeface type = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Biko_Bold.otf");
+            tvTitleOne.setTypeface(type);
+            tvTitleTwo.setTypeface(type);
+            Typeface type1 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Biko-Regular.otf");
+            tvContent.setTypeface(type1);
         } catch (IOException e) {
             e.printStackTrace();
         } catch (PListException e) {

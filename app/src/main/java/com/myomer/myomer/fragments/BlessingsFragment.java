@@ -4,11 +4,17 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.AssetManager;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
+import android.graphics.Typeface;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
+import android.support.v7.widget.SwitchCompat;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
@@ -52,9 +58,9 @@ public class BlessingsFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-    TextView tvBlessings,tvQuote, tvSefirah,tvLocale;
-    WebView wvBlessings;
-    Switch recordBlessing;
+    TextView tvBlessings,tvQuote, tvSefirah,tvLocale,tvBlessingRecord;
+    TextView wvBlessings;
+    SwitchCompat recordBlessing;
     boolean changeSwitch = true;
     String selectedLocale = "en";
     int day;
@@ -63,6 +69,7 @@ public class BlessingsFragment extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
+    private String color;
 
     public BlessingsFragment() {
         // Required empty public constructor
@@ -100,13 +107,19 @@ public class BlessingsFragment extends Fragment {
                              final Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_blessings, container, false);
 
-        wvBlessings = (WebView) view.findViewById(R.id.wvBlessings);
+        wvBlessings = (TextView) view.findViewById(R.id.wvBlessings);
         tvQuote = (TextView) view.findViewById(R.id.tvQuote);
         tvSefirah = (TextView) view.findViewById(R.id.tvSefirah);
-        recordBlessing = (Switch) view.findViewById(R.id.simpleSwitch);
+        recordBlessing = (SwitchCompat) view.findViewById(R.id.simpleSwitch);
         tvLocale = (TextView) view.findViewById(R.id.tvLocale);
-
-
+        tvBlessingRecord = (TextView) view.findViewById(R.id.tvBlessingRecord);
+        GlobalBus.getBus().register(this);
+        wvBlessings.setOnTouchListener(new View.OnTouchListener() {
+            public boolean onTouch(View v, MotionEvent event) {
+                return(event.getAction() == MotionEvent.ACTION_MOVE);
+            }
+        });
+        wvBlessings.setScrollContainer(false);
         recordBlessing.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
@@ -117,8 +130,14 @@ public class BlessingsFragment extends Fragment {
                     rb.setId(day);
                     rb.setRecorded(b);
                     rb.setYear(Utilty.getYear(new Date()));
-                    realm.copyToRealm(rb);
+                    realm.copyToRealmOrUpdate(rb);
                     realm.commitTransaction();
+                }
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+                    recordBlessing.getTrackDrawable().setColorFilter(b ? Color.parseColor("#"+color) : Color.GRAY, PorterDuff.Mode.MULTIPLY);
+                    recordBlessing.getThumbDrawable().setColorFilter(b ? Color.LTGRAY : Color.LTGRAY, PorterDuff.Mode.MULTIPLY);
+
+
                 }
             }
         });
@@ -126,16 +145,24 @@ public class BlessingsFragment extends Fragment {
         tvLocale.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AlertDialog.Builder builderSingle = new AlertDialog.Builder(getActivity());
+                final AlertDialog.Builder builderSingle = new AlertDialog.Builder(getActivity());
                 //builderSingle.setIcon(R.drawable.ic_launcher);
                 builderSingle.setTitle("Language");
 
-                final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.select_dialog_singlechoice);
-                arrayAdapter.add("Hebrew");
-                arrayAdapter.add("English");
-                arrayAdapter.add("Russian");
-                arrayAdapter.add("Spanish");
-                arrayAdapter.add("French");
+//                final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.select_dialog_singlechoice);
+//                arrayAdapter.add("Hebrew");
+//                arrayAdapter.add("English");
+//                arrayAdapter.add("Russian");
+//                arrayAdapter.add("Spanish");
+//                arrayAdapter.add("French");
+
+                final String[] arrayAdapter = {"Hebrew",
+                "English",
+                "Russian",
+                "Spanish",
+                "French"};
+
+                int itemToBeSelected = 0;
 
                 builderSingle.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                     @Override
@@ -143,11 +170,24 @@ public class BlessingsFragment extends Fragment {
                         dialog.dismiss();
                     }
                 });
-
-                builderSingle.setAdapter(arrayAdapter, new DialogInterface.OnClickListener() {
+                if (selectedLocale == "en"){
+                    itemToBeSelected = 1;
+                }else if (selectedLocale == "hb"){
+                    itemToBeSelected = 0;
+                }
+                else if (selectedLocale == "ru"){
+                    itemToBeSelected = 2;
+                }
+                else if (selectedLocale == "es"){
+                    itemToBeSelected = 3;
+                }
+                else if (selectedLocale == "fr"){
+                    itemToBeSelected = 4;
+                }
+                builderSingle.setSingleChoiceItems(arrayAdapter,itemToBeSelected ,new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        String strName = arrayAdapter.getItem(which);
+                        String strName = arrayAdapter[which];
                         if (strName.equals("English")){
                             selectedLocale = "en";
                         }else if (strName.equals("Hebrew")){
@@ -159,14 +199,16 @@ public class BlessingsFragment extends Fragment {
                         }else if (strName.equals("French")){
                             selectedLocale = "fr";
                         }
-
+                        tvLocale.setText(selectedLocale);
                         populateViews(day);
+                        dialog.dismiss();
+                        dialog.cancel();
                     }
                 });
                 builderSingle.show();
             }
         });
-        GlobalBus.getBus().register(this);
+
 
         return view;
     }
@@ -222,7 +264,7 @@ public class BlessingsFragment extends Fragment {
             stream = assetManager.open("days/day" + dayCount + ".plist");
 
             PListDict dict = PListParser.parse(stream);
-
+            int week = dict.getInt("week");
             PListDict quote = dict.getPListDict("quote");
             String quoteString = quote.getString(selectedLocale);
             tvQuote.setText(quoteString);
@@ -243,8 +285,31 @@ public class BlessingsFragment extends Fragment {
             str = str.replace("%%DYNAMIC2%%", sefirahText);
 
             //Now instead of webview.loadURL(""), I needed to do something like -
-            wvBlessings.loadDataWithBaseURL("file:///android_asset/", str, "text/html", "UTF-8",null);
+            //wvBlessings.loadDataWithBaseURL("file:///android_asset/", str, "text/html", "UTF-8",null);
+            wvBlessings.setText(android.text.Html.fromHtml(str).toString());
+            InputStream inputStream = null;
 
+            inputStream = assetManager.open("weeks/week" + week + ".plist");
+
+            PListDict weekDict = PListParser.parse(inputStream);
+            String color = weekDict.getString("color");
+            tvLocale.setBackgroundColor(Color.parseColor("#"+color));
+            tvBlessingRecord.setTextColor(Color.parseColor("#"+color));
+            tvQuote.setTextColor(Color.parseColor("#"+color));
+            tvSefirah.setTextColor(Color.parseColor("#"+color));
+            this.color = color;
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+                recordBlessing.getTrackDrawable().setColorFilter(recordBlessing.isChecked() ? Color.parseColor("#"+color) : Color.GRAY, PorterDuff.Mode.MULTIPLY);
+                recordBlessing.getThumbDrawable().setColorFilter(recordBlessing.isChecked() ? Color.LTGRAY : Color.LTGRAY, PorterDuff.Mode.MULTIPLY);
+
+
+            }
+            Typeface type = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Biko_Bold.otf");
+            tvQuote.setTypeface(type);
+            tvSefirah.setTypeface(type);
+            tvBlessingRecord.setTypeface(type);
+            Typeface type1 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Biko_Regular.otf");
+            wvBlessings.setTypeface(type1);
         } catch (IOException e) {
             e.printStackTrace();
         } catch (PListException e) {

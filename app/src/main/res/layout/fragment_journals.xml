@@ -19,5 +19,15 @@
         android:background="@android:color/transparent"
         android:layout_alignParentBottom="true"
         />
-
+    <TextView
+        android:id="@+id/tvQuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_light"
+        android:text="Question"
+        android:textSize="18dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        />
 </RelativeLayout>

@@ -3,6 +3,8 @@ package com.myomer.myomer.fragments;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -141,28 +143,56 @@ public class VideoFragment extends Fragment {
 
 
             PListDict video = dict.getPListDict("video");
-            final String videoLink = video.getString("youtube_url");
-            String videoTitle = video.getString("title");
-            String videoDescription = video.getString("description");
-            tvTitleTwo.setText(videoTitle);
-            tvContent.setText(videoDescription);
-            int resID = getActivity().getResources().getIdentifier("a"+dayCount, "drawable", "com.myomer.myomer");
-            ivThumbnail.setBackgroundResource(resID);
-            ivThumbnail.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    getActivity().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(videoLink)));
-                }
-            });
-            ivThumbnail2.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    getActivity().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(videoLink)));
-                }
-            });
+            if (video.size() > 0) {
+                tvContent.setVisibility(View.VISIBLE);
+                ivThumbnail.setVisibility(View.VISIBLE);
+                ivThumbnail2.setVisibility(View.VISIBLE);
+                final String videoLink = video.getString("youtube_url");
+                String videoTitle = video.getString("title");
+                String videoDescription = video.getString("description");
+                tvTitleTwo.setText(videoTitle);
+                tvContent.setText(videoDescription);
+                int resID = getActivity().getResources().getIdentifier("a" + dayCount, "drawable", "com.myomer.myomer");
+                ivThumbnail.setBackgroundResource(resID);
+                ivThumbnail.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        getActivity().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(videoLink)));
+                    }
+                });
+                ivThumbnail2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        getActivity().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(videoLink)));
+                    }
+                });
+            }else {
+                tvTitleTwo.setText("Please check back tomorrow for more videos.");
+                tvContent.setVisibility(View.GONE);
+                ivThumbnail.setVisibility(View.GONE);
+                ivThumbnail2.setVisibility(View.GONE);
+            }
+            int week = dict.getInt("week");
+            InputStream inputStream = null;
+
+            inputStream = assetManager.open("weeks/week" + week + ".plist");
+
+            PListDict weekDict = PListParser.parse(inputStream);
+            String color = weekDict.getString("color");
+            tvTitleOne.setTextColor(Color.parseColor("#"+color));
+            tvTitleTwo.setTextColor(Color.parseColor("#"+color));
+            Typeface type = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Biko_Bold.otf");
+            tvTitleOne.setTypeface(type);
+            tvTitleTwo.setTypeface(type);
+            Typeface type1 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Biko_Regular.otf");
+            tvContent.setTypeface(type1);
         } catch (IOException e) {
             e.printStackTrace();
         } catch (PListException e) {
+            tvTitleTwo.setText("Please check back tomorrow for more videos.");
+            tvContent.setVisibility(View.GONE);
+            ivThumbnail.setVisibility(View.GONE);
+            ivThumbnail2.setVisibility(View.GONE);
             e.printStackTrace();
         }
     }

@@ -9,29 +9,14 @@
     tools:context="com.myomer.myomer.activities.OmerChartActivity">
 
 
-    <LinearLayout
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        >
-        <ImageView
-            android:id="@+id/backButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@android:color/black"
-            android:text="Blessing Logs"
-            android:layout_marginLeft="100dp"
-            android:textSize="20dp"
-            android:textStyle="bold"
-
-            />
-    </LinearLayout>
+        android:layout_height="58dp"
+        android:background="#fff"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+    </android.support.v7.widget.Toolbar>
 
     <TextView
         android:layout_width="match_parent"
@@ -57,13 +42,13 @@
                 android:id="@+id/expandableButton1"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:background="#9c27b0"
+                android:background="#89cbc7"
                 android:drawableRight="@android:drawable/arrow_down_float"
                 android:paddingRight="10dp"
                 android:layout_marginTop="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:text="Week 1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:text="Week 1: Chesed"
                 android:onClick="weekOneClicked"
                 android:gravity="left|center"
                 android:paddingLeft="16dp"
@@ -72,37 +57,232 @@
             <com.github.aakira.expandablelayout.ExpandableRelativeLayout
                 android:id="@+id/expandableLayout1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/expandableButton1"
-                android:background="#ba68c8"
-                android:padding="16dp"
+                android:background="#89cbc7"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
                 app:ael_duration="400"
                 android:layout_marginBottom="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
                 app:ael_expanded="false"
                 app:ael_interpolator="accelerate"
                 app:ael_orientation="vertical">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#FFFFFF"
-                    android:text="Android is an open source and Linux-based Operating System for mobile devices such as smartphones and tablet computers. Android was developed by the Open Handset Alliance, led by Google, and other companies. The first beta version of the Android Software Development Kit (SDK) was released by Google in 2007 where as the first commercial version, Android 1.0, was released in September 2008." />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+
+                <LinearLayout
+                    android:id="@+id/llDay1"
+                    android:layout_width="42dp"
+                    android:layout_height="44dp"
+                    android:orientation="vertical"
+
+                    android:gravity="center"
+                    android:background="@drawable/customborder"
+                    >
+                    <TextView
+                        android:id="@+id/tvDayName1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chesed"
+                        android:textSize="6sp"
+                        android:maxLines="1"
+                        android:textColor="@android:color/white"
+                        />
+                    <TextView
+                        android:id="@+id/tvDayNum1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textColor="@android:color/white"
+                        />
+
+                </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay2"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="2dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gevurah"
+                            android:textSize="5sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay3"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tiferet"
+                            android:textSize="5sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay4"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Netzach"
+                            android:textSize="5sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay5"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hod"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="5"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay6"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Yesod"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="6"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay7"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Malchut"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="7"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
             </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
 
             <Button
                 android:id="@+id/expandableButton2"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:background="#9c27b0"
+                android:background="#e87071"
                 android:drawableRight="@android:drawable/arrow_down_float"
                 android:paddingRight="10dp"
                 android:layout_marginTop="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
                 android:onClick="weekTwoClicked"
-                android:text="Week 1"
+                android:text="Week 2: GEVURAH"
                 android:gravity="left|center"
                 android:paddingLeft="16dp"
                 android:textColor="#fff" />
@@ -112,35 +292,230 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/expandableButton2"
-                android:background="#90caf9"
-                android:padding="16dp"
+                android:background="#e87071"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
                 app:ael_duration="400"
                 android:layout_marginBottom="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
                 app:ael_expanded="false"
                 app:ael_interpolator="accelerate"
                 app:ael_orientation="vertical">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#FFFFFF"
-                    android:text="Android Permission Model designed for preventing unauthorized access by third party application.Android applications must declare which permission they require after installation. At a time of android application installation android system display list of permissions which is required to install the current application. The user must decide to install an application or not." />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/llDay8"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chesed"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="8"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay9"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="2dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gevurah"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay10"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tiferet"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay11"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Netzach"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="11"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay12"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hod"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="12"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay13"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Yesod"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="13"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay14"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Malchut"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="14"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
             </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
 
             <Button
                 android:id="@+id/expandableButton3"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:background="#9c27b0"
+                android:background="#e1ce6f"
                 android:drawableRight="@android:drawable/arrow_down_float"
                 android:paddingRight="10dp"
                 android:layout_marginTop="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
                 android:onClick="weekThreeClicked"
-                android:text="Week 1"
+                android:text="Week 3: TIFERET"
                 android:gravity="left|center"
                 android:paddingLeft="16dp"
                 android:textColor="#fff" />
@@ -150,149 +525,230 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/expandableButton3"
-                android:background="#9010a106"
-                android:padding="16dp"
+                android:background="#e1ce6f"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
                 app:ael_duration="400"
                 android:layout_marginBottom="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
                 app:ael_expanded="false"
                 app:ael_interpolator="accelerate"
                 app:ael_orientation="vertical">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#FFFFFF"
-                    android:text="With the help of android debug bridge we can communicate with an emulator or connected physical android device because Android Debug Bridge is a command line tool. Android Debug Bridge is also known as ADB. ADB architecture is like client-server architecture with three components." />
-            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
 
-            <Button
-                android:id="@+id/expandableButton5"
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#9c27b0"
-                android:drawableRight="@android:drawable/arrow_down_float"
-                android:paddingRight="10dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:text="Week 1"
-                android:onClick="weekFourClicked"
-                android:gravity="left|center"
-                android:paddingLeft="16dp"
-                android:textColor="#fff" />
+                    <LinearLayout
+                        android:id="@+id/llDay15"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
 
-            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
-                android:id="@+id/expandableLayout5"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_below="@+id/expandableButton5"
-                android:background="#ffcc80"
-                android:padding="16dp"
-                app:ael_duration="400"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                app:ael_expanded="false"
-                app:ael_interpolator="accelerate"
-                app:ael_orientation="vertical">
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chesed"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="15"
+                            android:textColor="@android:color/white"
+                            />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#FFFFFF"
-                    android:text="The Open Handset Alliance (OHA) was formed in November 2007. The OHA is a business alliance comprised of many of the largest and most successful mobile companies on the planet. Its members include chip makers, handset manufacturers, software developers, and service providers.The entire mobile supply chain is well represented." />
-            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay16"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="2dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gevurah"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="16"
+                            android:textColor="@android:color/white"
+                            />
 
-            <Button
-                android:id="@+id/expandableButton6"
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#9c27b0"
-                android:drawableRight="@android:drawable/arrow_down_float"
-                android:paddingRight="10dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:onClick="weekFiveClicked"
-                android:text="Week 1"
-                android:gravity="left|center"
-                android:paddingLeft="16dp"
-                android:textColor="#fff" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay17"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tiferet"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="17"
+                            android:textColor="@android:color/white"
+                            />
 
-            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
-                android:id="@+id/expandableLayout6"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_below="@+id/expandableButton6"
-                android:background="#ffcc80"
-                android:padding="16dp"
-                app:ael_duration="400"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                app:ael_expanded="false"
-                app:ael_interpolator="accelerate"
-                app:ael_orientation="vertical">
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay18"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Netzach"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="18"
+                            android:textColor="@android:color/white"
+                            />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#FFFFFF"
-                    android:text="The Open Handset Alliance (OHA) was formed in November 2007. The OHA is a business alliance comprised of many of the largest and most successful mobile companies on the planet. Its members include chip makers, handset manufacturers, software developers, and service providers.The entire mobile supply chain is well represented." />
-            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay19"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hod"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="19"
+                            android:textColor="@android:color/white"
+                            />
 
-            <Button
-                android:id="@+id/expandableButton7"
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#9c27b0"
-                android:drawableRight="@android:drawable/arrow_down_float"
-                android:paddingRight="10dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:text="Week 1"
-                android:onClick="weekSixClicked"
-                android:gravity="left|center"
-                android:paddingLeft="16dp"
-                android:textColor="#fff" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay20"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Yesod"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="20"
+                            android:textColor="@android:color/white"
+                            />
 
-            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
-                android:id="@+id/expandableLayout7"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_below="@+id/expandableButton7"
-                android:background="#ffcc80"
-                android:padding="16dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                app:ael_duration="400"
-                app:ael_expanded="false"
-                app:ael_interpolator="accelerate"
-                app:ael_orientation="vertical">
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay21"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Malchut"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="21"
+                            android:textColor="@android:color/white"
+                            />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#FFFFFF"
-                    android:text="The Open Handset Alliance (OHA) was formed in November 2007. The OHA is a business alliance comprised of many of the largest and most successful mobile companies on the planet. Its members include chip makers, handset manufacturers, software developers, and service providers.The entire mobile supply chain is well represented." />
+                    </LinearLayout>
+                </LinearLayout>
             </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
 
             <Button
                 android:id="@+id/expandableButton4"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:background="#9c27b0"
+                android:background="#95c58b"
                 android:drawableRight="@android:drawable/arrow_down_float"
                 android:paddingRight="10dp"
                 android:layout_marginTop="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:text="Week 1"
-                android:onClick="weekSevenClicked"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:text="Week 4: NETZACH"
+                android:onClick="weekFourClicked"
                 android:gravity="left|center"
                 android:paddingLeft="16dp"
                 android:textColor="#fff" />
@@ -302,21 +758,915 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/expandableButton4"
-                android:background="#ffcc80"
+                android:background="#95c58b"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                app:ael_duration="400"
                 android:layout_marginBottom="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:padding="16dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/llDay22"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chesed"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="22"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay23"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="2dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gevurah"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="23"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay24"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tiferet"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="24"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay25"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Netzach"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="25"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay26"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName26"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hod"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum26"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="26"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay27"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Yesod"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="27"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay28"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Malchut"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="28"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/expandableButton5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#f97d39"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:paddingRight="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:onClick="weekFiveClicked"
+                android:text="Week 5: HOD"
+                android:gravity="left|center"
+                android:paddingLeft="16dp"
+                android:textColor="#fff" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton5"
+                android:background="#f97d39"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                app:ael_duration="400"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/llDay29"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chesed"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="29"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay30"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="2dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gevurah"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="30"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay31"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tiferet"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="31"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay32"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Netzach"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="32"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay33"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hod"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="33"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay34"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Yesod"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="34"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay35"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Malchut"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="35"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/expandableButton6"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#ad8cc5"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:paddingRight="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:text="Week 6: YESOD"
+                android:onClick="weekSixClicked"
+                android:gravity="left|center"
+                android:paddingLeft="16dp"
+                android:textColor="#fff" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton6"
+                android:background="#ad8cc5"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
                 app:ael_duration="400"
                 app:ael_expanded="false"
                 app:ael_interpolator="accelerate"
                 app:ael_orientation="vertical">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#FFFFFF"
-                    android:text="The Open Handset Alliance (OHA) was formed in November 2007. The OHA is a business alliance comprised of many of the largest and most successful mobile companies on the planet. Its members include chip makers, handset manufacturers, software developers, and service providers.The entire mobile supply chain is well represented." />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/llDay36"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chesed"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="36"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay37"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="2dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gevurah"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="37"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay38"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName38"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tiferet"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum38"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="38"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay39"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName39"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Netzach"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum39"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="39"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay40"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName40"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hod"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum40"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="40"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay41"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Yesod"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="41"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay42"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Malchut"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="42"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/expandableButton7"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#e46793"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:paddingRight="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:text="Week 7: MALCHUT"
+                android:onClick="weekSevenClicked"
+                android:gravity="left|center"
+                android:paddingLeft="16dp"
+                android:textColor="#fff" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton7"
+                android:background="#e46793"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/llDay43"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chesed"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="43"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay44"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="2dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName44"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gevurah"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum44"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="44"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay45"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName45"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tiferet"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum45"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="45"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay46"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName46"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Netzach"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum46"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="46"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay47"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName47"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hod"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum47"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="47"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay48"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName48"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Yesod"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum48"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="48"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDay49"
+                        android:layout_width="42dp"
+                        android:layout_height="44dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center"
+                        android:background="@drawable/customborder"
+                        >
+                        <TextView
+                            android:id="@+id/tvDayName49"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Malchut"
+                            android:textSize="6sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tvDayNum49"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="49"
+                            android:textColor="@android:color/white"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
             </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
 
         </LinearLayout>

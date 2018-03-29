@@ -70,9 +70,9 @@ public class RealmController {
 
 
     //find all objects in the Book.class
-    public RealmResults<MyOmerPeriod> getBooks() {
+    public RealmResults<RecordBlessing> getBlessingsRecorded() {
 
-        return realm.where(MyOmerPeriod.class).findAll();
+        return realm.where(RecordBlessing.class).findAll();
     }
 
     //query a single item with the given id

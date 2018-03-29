@@ -3,7 +3,10 @@ package com.myomer.myomer.adapters;
 
         import android.app.Activity;
         import android.content.Context;
+        import android.graphics.Color;
+        import android.graphics.Typeface;
         import android.text.Editable;
+        import android.text.TextUtils;
         import android.text.TextWatcher;
         import android.view.LayoutInflater;
         import android.view.View;
@@ -45,12 +48,14 @@ public class QuestionAdapter extends android.support.v4.view.PagerAdapter {
     LayoutInflater mLayoutInflater;
     private PListArray questions;
     int day;
+    String color;
     boolean addToDB = false;
-    public QuestionAdapter(Context context, PListArray questions,int day) {
+    public QuestionAdapter(Context context, PListArray questions,int day, String color) {
         mContext = context;
         mLayoutInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         this.questions = questions;
         this.day = day;
+        this.color = color;
     }
 
     @Override
@@ -73,10 +78,18 @@ public class QuestionAdapter extends android.support.v4.view.PagerAdapter {
             PListDict question = questions.getPListDict(position);
             final int questionId = question.getInt("id");
             String quest = question.getString("question");
-            tvQuestion.setText(quest);
+            if (questions.size() != 0)
+                tvQuestion.setText(TextUtils.isEmpty(quest) ? "Please check back tomorrow for more journal questions.":quest);
+            else
+                tvQuestion.setText("Please check back tomorrow for more journal questions.");
+            tvQuestion.setTextColor(Color.parseColor("#"+color));
             JournalQuestionModel journalQuestionModel = RealmController.with((Activity) mContext).getAnswer(day,questionId);
             if (journalQuestionModel != null)
             etAnswer.setText(journalQuestionModel.getAnswer());
+            Typeface type = Typeface.createFromAsset(mContext.getAssets(),"fonts/Biko_Bold.otf");
+            tvQuestion.setTypeface(type);
+            Typeface type1 = Typeface.createFromAsset(mContext.getAssets(),"fonts/Biko_Regular.otf");
+            etAnswer.setTypeface(type1);
             etAnswer.addTextChangedListener(new TextWatcher() {
                 @Override
                 public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {

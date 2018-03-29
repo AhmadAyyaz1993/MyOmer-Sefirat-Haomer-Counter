@@ -13,12 +13,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import com.myomer.myomer.R;
+import com.myomer.myomer.helpers.SharedPreferenceHelper;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.lang.reflect.Field;
+import java.nio.charset.Charset;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by ahmad on a3/a7/18.
@@ -40,6 +49,7 @@ public class Utilty {
         DateFormat formatter = new SimpleDateFormat("MM/dd/yy");
         try {
             date = formatter.parse(dateString);
+
             Log.e("Print result: ", String.valueOf(date));
 
         } catch (ParseException e1) {
@@ -77,5 +87,35 @@ public class Utilty {
         transaction.replace(containerId, newFragment);
         transaction.addToBackStack(null);
         transaction.commit();
+    }
+    public static boolean isFirstTime(Context context) {
+        Boolean firstTime = null;
+        if (firstTime == null) {
+            firstTime = SharedPreferenceHelper.getSharedPreferenceBoolean(context,"firstTime", true);
+            if (firstTime) {
+                SharedPreferenceHelper.setSharedPreferenceBoolean(context,"firstTime",false);
+            }
+        }
+        return firstTime;
+    }
+
+    public static List<String> readDataFromCSV(Context c) {
+        InputStream is = c.getResources().openRawResource(R.raw.reminders3);
+        BufferedReader reader = new BufferedReader(
+                new InputStreamReader(is, Charset.forName("UTF-8")));
+        String line = "";
+        String[] tokens = null;
+        List<String> bodies = new ArrayList<>();
+        try {
+            while ((line = reader.readLine()) != null) {
+                // Split the line into different tokens (using the comma as a separator).
+               tokens  = line.split(",");
+               bodies.add(tokens[3]);
+            }
+        } catch (IOException e1) {
+            Log.e("MainActivity", "Error" + line, e1);
+            e1.printStackTrace();
+        }
+        return bodies;
     }
 }

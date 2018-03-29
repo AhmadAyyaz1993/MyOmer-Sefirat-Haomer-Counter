@@ -2,6 +2,7 @@ package com.myomer.myomer.fragments;
 
 import android.content.Context;
 import android.content.res.AssetManager;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -133,6 +134,8 @@ public class ExerciseFragment extends Fragment {
 
             tvExercise.setText(exercise);
 
+            Typeface type1 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Biko-Regular.otf");
+            tvExercise.setTypeface(type1);
         } catch (IOException e) {
             e.printStackTrace();
         } catch (PListException e) {

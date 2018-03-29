@@ -1,0 +1,3 @@
+password for keystore: myOmer
+alias: myomer
+password for alias: myOmer
