@@ -1,4 +1,4 @@
-package com.myomer.myomer.activities;
+package com.sefirah.myomer.activities;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -6,10 +6,8 @@ import android.app.TimePickerDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.res.AssetManager;
 import android.graphics.Color;
 import android.net.Uri;
-import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.SwitchCompat;
@@ -21,30 +19,17 @@ import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.TimePicker;
-import android.widget.Toast;
 
 import com.luckycatlabs.sunrisesunset.SunriseSunsetCalculator;
 import com.luckycatlabs.sunrisesunset.dto.Location;
-import com.myomer.myomer.R;
-import com.myomer.myomer.background.AlarmReceiver;
-import com.myomer.myomer.helpers.SharedPreferenceHelper;
-import com.myomer.myomer.models.MyOmerPeriod;
-import com.myomer.myomer.plist_parser.PListArray;
-import com.myomer.myomer.plist_parser.PListDict;
-import com.myomer.myomer.plist_parser.PListException;
-import com.myomer.myomer.plist_parser.PListParser;
-import com.myomer.myomer.realm.RealmController;
-import com.myomer.myomer.utilty.Constants;
-import com.myomer.myomer.utilty.Utilty;
+import com.sefirah.myomer.R;
+import com.sefirah.myomer.background.AlarmReceiver;
+import com.sefirah.myomer.helpers.SharedPreferenceHelper;
+import com.sefirah.myomer.utilty.Constants;
 
 import org.ankit.gpslibrary.MyTracker;
-import org.joda.time.Days;
-import org.joda.time.LocalDate;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.TimeZone;
 
 public class SettingsActivity extends AppCompatActivity {
@@ -115,8 +100,10 @@ public class SettingsActivity extends AppCompatActivity {
                     format = "AM";
                 }
 
+                String strHour  = String.valueOf(hour).length() == 1 ? "0"+hour : hour+"";
+                String strMin = String.valueOf(min).length() == 1 ? "0"+min : min+"";
 
-                tvDayModeTime.setText(hour + ":" + min +"  " +format);
+                tvDayModeTime.setText(strHour + ":" +  strMin +"  " +format);
 
         }else {
             tvDayModeTime.setText("Enable alarm");
@@ -150,8 +137,9 @@ public class SettingsActivity extends AppCompatActivity {
                     format = "AM";
                 }
 
-
-                tvNightlyModeTime.setText(hour + ":" + min +"  " +format);
+            String strHour  = String.valueOf(hour).length() == 1 ? "0"+hour : hour+"";
+            String strMin = String.valueOf(min).length() == 1 ? "0"+min : min+"";
+                tvNightlyModeTime.setText(strHour + ":" + strMin +"  " +format);
 
         }
         if (NightFallEnabled == true){
@@ -202,8 +190,10 @@ public class SettingsActivity extends AppCompatActivity {
                                         format = "AM";
                                     }
 
+                                    String strHour  = String.valueOf(hourOfDay).length() == 1 ? "0"+hourOfDay : hourOfDay+"";
+                                    String strMin = String.valueOf(minute).length() == 1 ? "0"+minute : minute+"";
 
-                                    tvNightlyModeTime.setText(hourOfDay + ":" + minute +"  " +format);
+                                    tvNightlyModeTime.setText(strHour + ":" + strMin +"  " +format);
                                     Calendar calNow = Calendar.getInstance();
                                     calNow.setTimeInMillis(System.currentTimeMillis());
                                     Calendar calSet = (Calendar) calNow.clone();
@@ -277,8 +267,9 @@ public class SettingsActivity extends AppCompatActivity {
                                         format = "AM";
                                     }
 
-
-                                    tvDayModeTime.setText(hourOfDay + ":" + minute +"  " +format);
+                                    String strHour  = String.valueOf(hourOfDay).length() == 1 ? "0"+hourOfDay : hourOfDay+"";
+                                    String strMin = String.valueOf(minute).length() == 1 ? "0"+minute : minute+"";
+                                    tvDayModeTime.setText(strHour + ":" + strMin +"  " +format);
 
                                     Calendar calNow = Calendar.getInstance();
                                     calNow.setTimeInMillis(System.currentTimeMillis());
@@ -355,7 +346,8 @@ public class SettingsActivity extends AppCompatActivity {
                             format = "AM";
                         }
 
-
+                        String strHour  = String.valueOf(hourOfDay).length() == 1 ? "0"+hourOfDay : hourOfDay+"";
+                        String strMin = String.valueOf(minute).length() == 1 ? "0"+minute : minute+"";
                         tvNightFallTime.setText(hourOfDay + ":" + minute + "  " + format);
 
 

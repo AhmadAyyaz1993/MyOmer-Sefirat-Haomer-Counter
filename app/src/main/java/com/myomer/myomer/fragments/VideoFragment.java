@@ -1,4 +1,4 @@
-package com.myomer.myomer.fragments;
+package com.sefirah.myomer.fragments;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,12 +14,12 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.myomer.myomer.R;
-import com.myomer.myomer.event_bus.Events;
-import com.myomer.myomer.event_bus.GlobalBus;
-import com.myomer.myomer.plist_parser.PListDict;
-import com.myomer.myomer.plist_parser.PListException;
-import com.myomer.myomer.plist_parser.PListParser;
+import com.sefirah.myomer.R;
+import com.sefirah.myomer.event_bus.Events;
+import com.sefirah.myomer.event_bus.GlobalBus;
+import com.sefirah.myomer.plist_parser.PListDict;
+import com.sefirah.myomer.plist_parser.PListException;
+import com.sefirah.myomer.plist_parser.PListParser;
 
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;

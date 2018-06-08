@@ -1,4 +1,4 @@
-package com.myomer.myomer.adapters;
+package com.sefirah.myomer.adapters;
 
 
         import android.app.Activity;
@@ -11,28 +11,20 @@ package com.myomer.myomer.adapters;
         import android.view.LayoutInflater;
         import android.view.View;
         import android.view.ViewGroup;
-        import android.webkit.WebView;
         import android.widget.EditText;
-        import android.widget.FrameLayout;
-        import android.widget.ImageView;
-        import android.widget.LinearLayout;
         import android.widget.RelativeLayout;
         import android.widget.TextView;
 
 
-        import com.myomer.myomer.R;
-        import com.myomer.myomer.activities.HomeActivity;
-        import com.myomer.myomer.fragments.BlessingsFragment;
-        import com.myomer.myomer.models.JournalQuestionModel;
-        import com.myomer.myomer.models.RecordBlessing;
-        import com.myomer.myomer.plist_parser.PListArray;
-        import com.myomer.myomer.plist_parser.PListDict;
-        import com.myomer.myomer.plist_parser.PListException;
-        import com.myomer.myomer.realm.RealmController;
-        import com.myomer.myomer.utilty.Utilty;
+        import com.sefirah.myomer.R;
+        import com.sefirah.myomer.models.JournalQuestionModel;
+        import com.sefirah.myomer.plist_parser.PListArray;
+        import com.sefirah.myomer.plist_parser.PListDict;
+        import com.sefirah.myomer.plist_parser.PListException;
+        import com.sefirah.myomer.realm.RealmController;
+        import com.sefirah.myomer.utilty.Utilty;
 
         import java.util.Date;
-        import java.util.List;
         import java.util.Timer;
         import java.util.TimerTask;
 
@@ -83,7 +75,7 @@ public class QuestionAdapter extends android.support.v4.view.PagerAdapter {
             else
                 tvQuestion.setText("Please check back tomorrow for more journal questions.");
             tvQuestion.setTextColor(Color.parseColor("#"+color));
-            JournalQuestionModel journalQuestionModel = RealmController.with((Activity) mContext).getAnswer(day,questionId);
+            final JournalQuestionModel journalQuestionModel = RealmController.with((Activity) mContext).getAnswer(day,questionId);
             if (journalQuestionModel != null)
             etAnswer.setText(journalQuestionModel.getAnswer());
             Typeface type = Typeface.createFromAsset(mContext.getAssets(),"fonts/Biko_Bold.otf");
@@ -116,17 +108,21 @@ public class QuestionAdapter extends android.support.v4.view.PagerAdapter {
                             addToDB = true;
                         }
 
-                    }, 3000);
+                    }, 500);
                     if (addToDB == true) {
                         Realm realm = RealmController.with((Activity) mContext).getRealm();
                         realm.beginTransaction();
                         JournalQuestionModel rb = new JournalQuestionModel();
 
+                        rb.setUniqueId((long) (System.currentTimeMillis()+Math.random()));
                         rb.setId(day);
                         rb.setAnswer(editable.toString());
                         rb.setQuestionId(questionId);
                         rb.setYear(Utilty.getYear(new Date()));
-                        realm.copyToRealmOrUpdate(rb);
+                        if (journalQuestionModel != null && journalQuestionModel.getId() == day && journalQuestionModel.getQuestionId() == questionId)
+                            realm.copyToRealmOrUpdate(rb);
+                        else
+                            realm.copyToRealm(rb);
                         realm.commitTransaction();
                     }
 

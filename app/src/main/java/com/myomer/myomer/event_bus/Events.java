@@ -1,4 +1,4 @@
-package com.myomer.myomer.event_bus;
+package com.sefirah.myomer.event_bus;
 
 /**
  * Created by ahmad on a3/11/18.

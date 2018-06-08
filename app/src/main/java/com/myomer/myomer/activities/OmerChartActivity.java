@@ -1,4 +1,4 @@
-package com.myomer.myomer.activities;
+package com.sefirah.myomer.activities;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -13,12 +13,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.github.aakira.expandablelayout.ExpandableRelativeLayout;
-import com.myomer.myomer.R;
-import com.myomer.myomer.fragments.BlessingsFragment;
-import com.myomer.myomer.models.MyOmerPeriod;
-import com.myomer.myomer.models.RecordBlessing;
-import com.myomer.myomer.realm.RealmController;
-import com.myomer.myomer.utilty.Utilty;
+import com.sefirah.myomer.R;
+import com.sefirah.myomer.models.MyOmerPeriod;
+import com.sefirah.myomer.models.RecordBlessing;
+import com.sefirah.myomer.realm.RealmController;
+import com.sefirah.myomer.utilty.Utilty;
 
 import org.joda.time.Days;
 import org.joda.time.LocalDate;

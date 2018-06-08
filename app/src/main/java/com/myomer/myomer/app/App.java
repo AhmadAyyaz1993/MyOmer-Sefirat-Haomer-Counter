@@ -1,4 +1,4 @@
-package com.myomer.myomer.app;
+package com.sefirah.myomer.app;
 
 import android.app.AlarmManager;
 import android.app.Application;
@@ -11,16 +11,17 @@ import android.util.Log;
 
 import com.luckycatlabs.sunrisesunset.SunriseSunsetCalculator;
 import com.luckycatlabs.sunrisesunset.dto.Location;
-import com.myomer.myomer.background.AlarmReceiver;
-import com.myomer.myomer.helpers.SharedPreferenceHelper;
-import com.myomer.myomer.models.MyOmerPeriod;
-import com.myomer.myomer.plist_parser.PListArray;
-import com.myomer.myomer.plist_parser.PListDict;
-import com.myomer.myomer.plist_parser.PListException;
-import com.myomer.myomer.plist_parser.PListParser;
-import com.myomer.myomer.realm.RealmController;
-import com.myomer.myomer.utilty.Constants;
-import com.myomer.myomer.utilty.Utilty;
+import com.sefirah.myomer.background.AlarmReceiver;
+import com.sefirah.myomer.helpers.SharedPreferenceHelper;
+import com.sefirah.myomer.models.MyOmerPeriod;
+import com.sefirah.myomer.plist_parser.PListArray;
+import com.sefirah.myomer.plist_parser.PListDict;
+import com.sefirah.myomer.plist_parser.PListException;
+import com.sefirah.myomer.plist_parser.PListParser;
+import com.sefirah.myomer.realm.DatabaseMigration;
+import com.sefirah.myomer.realm.RealmController;
+import com.sefirah.myomer.utilty.Constants;
+import com.sefirah.myomer.utilty.Utilty;
 
 import org.ankit.gpslibrary.MyTracker;
 
@@ -47,8 +48,8 @@ public class App extends Application {
         Realm.init(this);
         RealmConfiguration realmConfiguration = new RealmConfiguration.Builder()
                 .name(Realm.DEFAULT_REALM_NAME)
-                .schemaVersion(0)
-                .deleteRealmIfMigrationNeeded()
+                .schemaVersion(1)
+                .migration(new DatabaseMigration())
                 .build();
         Realm.setDefaultConfiguration(realmConfiguration);
         //get realm instance

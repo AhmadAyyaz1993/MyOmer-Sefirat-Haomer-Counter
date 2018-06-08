@@ -1,4 +1,4 @@
-package com.myomer.myomer;
+package com.sefirah.myomer;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

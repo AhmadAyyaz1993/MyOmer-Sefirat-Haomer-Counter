@@ -1,4 +1,4 @@
-package com.myomer.myomer.activities;
+package com.sefirah.myomer.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.view.WindowManager;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-import com.myomer.myomer.R;
+import com.sefirah.myomer.R;
 
 public class AboutUsActivity extends AppCompatActivity {
     WebView wvAboutUs;

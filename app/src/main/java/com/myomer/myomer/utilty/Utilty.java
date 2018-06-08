@@ -1,8 +1,7 @@
-package com.myomer.myomer.utilty;
+package com.sefirah.myomer.utilty;
 
 import android.annotation.SuppressLint;
 
-import android.app.Activity;
 import android.content.Context;
 import android.support.design.internal.BottomNavigationItemView;
 import android.support.design.internal.BottomNavigationMenuView;
@@ -12,8 +11,8 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import com.myomer.myomer.R;
-import com.myomer.myomer.helpers.SharedPreferenceHelper;
+import com.sefirah.myomer.R;
+import com.sefirah.myomer.helpers.SharedPreferenceHelper;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -25,7 +24,6 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 

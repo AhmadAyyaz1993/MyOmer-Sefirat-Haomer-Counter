@@ -1,4 +1,4 @@
-package com.myomer.myomer.models;
+package com.sefirah.myomer.models;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package com.myomer.myomer.models;
+package com.sefirah.myomer.models;
 
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;

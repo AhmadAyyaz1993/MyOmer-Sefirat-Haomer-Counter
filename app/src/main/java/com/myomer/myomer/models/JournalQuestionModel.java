@@ -1,4 +1,4 @@
-package com.myomer.myomer.models;
+package com.sefirah.myomer.models;
 
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
@@ -10,11 +10,19 @@ import io.realm.annotations.PrimaryKey;
 public class JournalQuestionModel extends RealmObject {
 
     @PrimaryKey
+    private long uniqueId;
     private int id;
     private int year;
     private int questionId;
     private String answer;
 
+    public long getUniqueId() {
+        return uniqueId;
+    }
+
+    public void setUniqueId(long uniqueId) {
+        this.uniqueId = uniqueId;
+    }
 
     public int getId() {
         return id;

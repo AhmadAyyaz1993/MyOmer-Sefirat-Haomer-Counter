@@ -1,4 +1,4 @@
-package com.myomer.myomer.background;
+package com.sefirah.myomer.background;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -13,24 +13,21 @@ import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.util.Log;
 
-import com.myomer.myomer.R;
-import com.myomer.myomer.activities.HomeActivity;
-import com.myomer.myomer.models.MyOmerPeriod;
-import com.myomer.myomer.plist_parser.PListArray;
-import com.myomer.myomer.plist_parser.PListDict;
-import com.myomer.myomer.plist_parser.PListException;
-import com.myomer.myomer.plist_parser.PListParser;
-import com.myomer.myomer.realm.RealmController;
-import com.myomer.myomer.utilty.Utilty;
+import com.sefirah.myomer.R;
+import com.sefirah.myomer.activities.HomeActivity;
+import com.sefirah.myomer.models.MyOmerPeriod;
+import com.sefirah.myomer.plist_parser.PListArray;
+import com.sefirah.myomer.plist_parser.PListDict;
+import com.sefirah.myomer.plist_parser.PListException;
+import com.sefirah.myomer.plist_parser.PListParser;
+import com.sefirah.myomer.realm.RealmController;
+import com.sefirah.myomer.utilty.Utilty;
 
 import org.joda.time.Days;
 import org.joda.time.LocalDate;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.nio.charset.Charset;
 import java.util.Date;
 import java.util.List;
 

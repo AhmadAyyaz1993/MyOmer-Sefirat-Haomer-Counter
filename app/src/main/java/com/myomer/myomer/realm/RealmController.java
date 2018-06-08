@@ -1,4 +1,4 @@
-package com.myomer.myomer.realm;
+package com.sefirah.myomer.realm;
 
 /**
  * Created by ahmad on a3/a8/18.
@@ -8,11 +8,9 @@ import android.app.Activity;
 import android.app.Application;
 import android.support.v4.app.Fragment;
 
-import com.myomer.myomer.models.JournalQuestionModel;
-import com.myomer.myomer.models.MyOmerPeriod;
-import com.myomer.myomer.models.RecordBlessing;
-
-import java.util.Date;
+import com.sefirah.myomer.models.JournalQuestionModel;
+import com.sefirah.myomer.models.MyOmerPeriod;
+import com.sefirah.myomer.models.RecordBlessing;
 
 import io.realm.Realm;
 import io.realm.RealmResults;
@@ -87,7 +85,7 @@ public class RealmController {
     }
 
     public JournalQuestionModel getAnswer(int day, int questionId){
-        return realm.where(JournalQuestionModel.class).equalTo("id",day).and().equalTo("questionId",questionId).findFirst();
+        return realm.where(JournalQuestionModel.class).equalTo("id",day).and().equalTo("questionId",questionId).findAll().last(null);
     }
 
     //query example

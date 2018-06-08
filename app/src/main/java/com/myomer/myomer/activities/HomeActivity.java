@@ -1,6 +1,5 @@
-package com.myomer.myomer.activities;
+package com.sefirah.myomer.activities;
 
-import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.graphics.Color;
@@ -20,28 +19,25 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.myomer.myomer.R;
-import com.myomer.myomer.event_bus.Events;
-import com.myomer.myomer.event_bus.GlobalBus;
-import com.myomer.myomer.fragments.BlessingsFragment;
-import com.myomer.myomer.fragments.DailyFragment;
-import com.myomer.myomer.fragments.ExerciseFragment;
-import com.myomer.myomer.fragments.JournalsFragment;
-import com.myomer.myomer.fragments.VideoFragment;
-import com.myomer.myomer.fragments.WeekFragment;
-import com.myomer.myomer.models.MyOmerPeriod;
-import com.myomer.myomer.plist_parser.PListDict;
-import com.myomer.myomer.plist_parser.PListException;
-import com.myomer.myomer.plist_parser.PListParser;
-import com.myomer.myomer.realm.RealmController;
-import com.myomer.myomer.utilty.Constants;
-import com.myomer.myomer.utilty.Utilty;
+import com.sefirah.myomer.R;
+import com.sefirah.myomer.event_bus.Events;
+import com.sefirah.myomer.event_bus.GlobalBus;
+import com.sefirah.myomer.fragments.BlessingsFragment;
+import com.sefirah.myomer.fragments.DailyFragment;
+import com.sefirah.myomer.fragments.ExerciseFragment;
+import com.sefirah.myomer.fragments.JournalsFragment;
+import com.sefirah.myomer.fragments.VideoFragment;
+import com.sefirah.myomer.fragments.WeekFragment;
+import com.sefirah.myomer.models.MyOmerPeriod;
+import com.sefirah.myomer.plist_parser.PListDict;
+import com.sefirah.myomer.plist_parser.PListException;
+import com.sefirah.myomer.plist_parser.PListParser;
+import com.sefirah.myomer.realm.RealmController;
+import com.sefirah.myomer.utilty.Constants;
+import com.sefirah.myomer.utilty.Utilty;
 
 
-import org.greenrobot.eventbus.Subscribe;
-import org.greenrobot.eventbus.ThreadMode;
 import org.joda.time.Days;
 import org.joda.time.LocalDate;
 
@@ -51,10 +47,6 @@ import java.util.Date;
 
 import co.ceryle.radiorealbutton.RadioRealButton;
 import co.ceryle.radiorealbutton.RadioRealButtonGroup;
-import hollowsoft.slidingdrawer.OnDrawerCloseListener;
-import hollowsoft.slidingdrawer.OnDrawerOpenListener;
-import hollowsoft.slidingdrawer.OnDrawerScrollListener;
-import hollowsoft.slidingdrawer.SlidingDrawer;
 
 public class HomeActivity extends AppCompatActivity implements DailyFragment.OnFragmentInteractionListener,
         WeekFragment.OnFragmentInteractionListener,

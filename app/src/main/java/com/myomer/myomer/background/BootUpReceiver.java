@@ -1,14 +1,12 @@
-package com.myomer.myomer.background;
+package com.sefirah.myomer.background;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
 
-import com.myomer.myomer.activities.SettingsActivity;
-import com.myomer.myomer.helpers.SharedPreferenceHelper;
+import com.sefirah.myomer.helpers.SharedPreferenceHelper;
 
 import java.util.Calendar;
 

@@ -1,7 +1,6 @@
-package com.myomer.myomer.activities;
+package com.sefirah.myomer.activities;
 
 import android.content.Intent;
-import android.content.res.AssetManager;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,25 +9,14 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import com.myomer.myomer.R;
-import com.myomer.myomer.models.MyOmerPeriod;
-import com.myomer.myomer.plist_parser.PListDict;
-import com.myomer.myomer.plist_parser.PListException;
-import com.myomer.myomer.plist_parser.PListParser;
-import com.myomer.myomer.realm.RealmController;
-import com.myomer.myomer.utilty.Constants;
-import com.myomer.myomer.utilty.Utilty;
+import com.sefirah.myomer.R;
+import com.sefirah.myomer.models.MyOmerPeriod;
+import com.sefirah.myomer.realm.RealmController;
+import com.sefirah.myomer.utilty.Constants;
+import com.sefirah.myomer.utilty.Utilty;
 
-import org.joda.time.Days;
-import org.joda.time.LocalDate;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.text.DateFormat;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.List;
 
 public class WaitingScreenActivity extends AppCompatActivity {
 

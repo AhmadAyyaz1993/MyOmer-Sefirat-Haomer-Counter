@@ -1,4 +1,4 @@
-package com.myomer.myomer;
+package com.sefirah.myomer;
 
 import org.junit.Test;
 

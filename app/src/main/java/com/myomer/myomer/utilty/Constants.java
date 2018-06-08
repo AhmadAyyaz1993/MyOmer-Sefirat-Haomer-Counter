@@ -1,4 +1,4 @@
-package com.myomer.myomer.utilty;
+package com.sefirah.myomer.utilty;
 
 /**
  * Created by ahmad on a3/a8/18.

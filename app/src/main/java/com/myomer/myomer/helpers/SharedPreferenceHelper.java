@@ -1,11 +1,10 @@
-package com.myomer.myomer.helpers;
+package com.sefirah.myomer.helpers;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
 import java.util.Calendar;
 import java.util.Date;
-import java.util.TimeZone;
 
 /**
  * Created by ahmad on a3/a7/18.

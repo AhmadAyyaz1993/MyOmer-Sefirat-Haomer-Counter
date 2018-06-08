@@ -1,4 +1,4 @@
-package com.myomer.myomer.activities;
+package com.sefirah.myomer.activities;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.myomer.myomer.R;
+import com.sefirah.myomer.R;
 
 public class SplachScreenActivity extends AppCompatActivity {
 

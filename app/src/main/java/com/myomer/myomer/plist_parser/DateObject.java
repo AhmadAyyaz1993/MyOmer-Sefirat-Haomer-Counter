@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.myomer.myomer.plist_parser;
+package com.sefirah.myomer.plist_parser;
 
 import java.util.Date;
 
